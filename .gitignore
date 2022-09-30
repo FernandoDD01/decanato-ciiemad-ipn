@@ -77,7 +77,7 @@ node_modules/
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
-firebase.json
+
 
 
 # End of https://www.toptal.com/developers/gitignore/api/firebase
