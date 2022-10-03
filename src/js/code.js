@@ -1,4 +1,4 @@
-let contenedor = document.querySelector("tbody");
+let contenedor = document.getElementById("contenedorG");
 let resultados = "";
 
 //Credenciales para acceder a la base de datos de firebase
@@ -23,7 +23,32 @@ db.collection("gacetas")
   .get()
   .then((querySnapshot) => {
     querySnapshot.forEach((gacetas) => {
-      resultados += `
+      resultados += `<div class="card mb-3 w-100" style="height: 16rem;">
+      <div class="row g-0">
+        <div class="col-md-4 p-3">
+        <a href="assets/pdf_gacetas/${
+          gacetas.data().numero
+        }.pdf" target="_blank">
+          <img src="assets/port_gacetas/${
+            gacetas.data().numero
+          }.jpg" class="img-fluid rounded-start" alt="594" width="160px" height="300px" ></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">${gacetas.data().documento_historico} - No.${
+        gacetas.data().numero
+      }</h5>
+            <p class="card-text">${gacetas.data().descripcion}</p>
+            <p class="card-text"><small class="text-muted">${
+              gacetas.data().clasificacion
+            }</small></p>
+          </div>
+        </div>
+      </div>
+    </div>`;
+      /* resultados += `
+
+      
                     <tr class="text-center">
                     <td>${gacetas.id}</td>
                     <td>${gacetas.data().documento_historico}</td>
@@ -40,7 +65,7 @@ db.collection("gacetas")
       }" width="70px" height="90px">
                     </a>
                     </td>
-                    </tr>`;
+                    </tr>`; */
     });
     contenedor.innerHTML = resultados;
   });
