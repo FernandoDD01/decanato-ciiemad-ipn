@@ -8,6 +8,7 @@
       name="description"
       content="En esta pagina del Decanato de CIIEMAD se busca resguardar todos eventos y documentos en un archivo historico"
     />
+    <!--<base href="https://decanato-ciiemad-ipn.web.app/">-->
     <title>Decanato CIIEMAD IPN</title>
     <link rel="icon" href="assets/imagenes/favicon.jpg" />
     <link rel="apple-touch-icon" href="assets/imagenes/favicon.jpg" />
@@ -16,6 +17,12 @@
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@600&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
@@ -241,9 +248,38 @@
       <div class="contenedorGinda"></div>
     </div>
 
-    <div class="bg-dark">
-      <div class="contenedorFinal"></div>
-    </div>
+    <footer class="bd-footer py-4 py-md-5 bg-dark ">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2">
+            <a href="https://www.ipn.mx/" target="_blank">
+              <img class="img-fluid" src="/assets/imagenes/Logo_IPN.png" alt="Logo_IPN" width="120" height="240">
+            </a>
+            
+          </div>
+          <div class="col-8">
+            <ul class="list-unstyled small text-muted text-center">
+              <li class="mb-2 fw-bolder">
+                © Todos los derechos reservados - Fernando Enrique Alvarado Bolaños - Octubre 2022 
+              </li>
+    
+              
+                
+              </li>
+              <li class="mb-2 fw-bolder">Versión 1 . 0 . 0</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <a href="https://www.ciiemad.ipn.mx/" target="_blank"><img class="img-fluid logo-ciiemad" src="/assets/imagenes/banderin-ciiemad.png" alt="Logo_IPN" width="120" height="240"></a>
+            
+          </div>
+        </div>
+
+      
+      
+            
+       
+    </footer>
 
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>

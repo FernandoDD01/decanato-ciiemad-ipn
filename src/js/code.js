@@ -1,4 +1,4 @@
-let contenedor = document.getElementById("contenedorG");
+let contenedor = document.querySelector(".seccion_gacetas");
 let resultados = "";
 
 //Credenciales para acceder a la base de datos de firebase
@@ -18,57 +18,111 @@ firebase.initializeApp(firebaseConfig);
 // Inicializar Cloud Firestore
 const db = firebase.firestore();
 
+//CODIGO PARA FILTRAR
+let boton = document.getElementById("boton");
+let input = document.getElementById("serch");
+
 //acceder a la tabla de gacetas y formar los renglones de la tabla
 db.collection("gacetas")
+  .orderBy("id", "asc")
   .get()
   .then((querySnapshot) => {
     querySnapshot.forEach((gacetas) => {
-      resultados += `<div class="card mb-3 w-100" style="height: 16rem;">
-      <div class="row g-0">
-        <div class="col-md-4 p-3">
-        <a href="assets/pdf_gacetas/${
+      resultados += `<div class="card  w-75 mt-3 mx-auto" style="height: 16rem;">
+    <div class="row g-0">
+      <div class="col-md-4 p-3 justify-content-center">
+      <a href="assets/pdf_gacetas/${gacetas.data().numero}.pdf" target="_blank">
+        <img src="assets/port_gacetas/${
           gacetas.data().numero
-        }.pdf" target="_blank">
-          <img src="assets/port_gacetas/${
-            gacetas.data().numero
-          }.jpg" class="img-fluid rounded-start" alt="594" width="160px" height="300px" ></a>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">${gacetas.data().documento_historico} - No.${
+        }.jpg" class="img-fluid rounded-start mx-auto d-block" alt="${
         gacetas.data().numero
-      }</h5>
-            <p class="card-text">${gacetas.data().descripcion}</p>
-            <p class="card-text"><small class="text-muted">${
-              gacetas.data().clasificacion
-            }</small></p>
-          </div>
+      }" width="160px" height="300px"></a>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title px-5">${
+            gacetas.data().documento_historico
+          } - No.${gacetas.data().numero}</h5>
+          <p class="card-text px-5">${gacetas.data().descripcion}</p>
+          <p class="card-text px-5"><small class="text-muted">${
+            gacetas.data().clasificacion
+          }</small></p>
         </div>
       </div>
-    </div>`;
-      /* resultados += `
-
-      
-                    <tr class="text-center">
-                    <td>${gacetas.id}</td>
-                    <td>${gacetas.data().documento_historico}</td>
-                    <td>${gacetas.data().numero}</td>
-            
-                    <td>
-                    <a href="assets/pdf_gacetas/${
-                      gacetas.data().numero
-                    }.pdf" target="_blank">
-                    <img src="assets/port_gacetas//${
-                      gacetas.data().imagen
-                    }" alt="${
-        gacetas.data().numero
-      }" width="70px" height="90px">
-                    </a>
-                    </td>
-                    </tr>`; */
+    </div>
+  </div>`;
     });
     contenedor.innerHTML = resultados;
   });
+
+function quitarAcentos(cadena) {
+  const acentos = {
+    á: "a",
+    é: "e",
+    í: "i",
+    ó: "o",
+    ú: "u",
+    Á: "A",
+    É: "E",
+    Í: "I",
+    Ó: "O",
+    Ú: "U",
+  };
+  return cadena
+    .split("")
+    .map((letra) => acentos[letra] || letra)
+    .join("")
+    .toString();
+}
+
+boton.addEventListener("click", () => {
+  contenedor.innerHTML = "";
+  resultados = "";
+
+  db.collection("gacetas")
+    .get()
+    .then((querySnapshot) => {
+      querySnapshot.forEach((gacetas) => {
+        let comparador = "",
+          comparador2 = "";
+        comparador = gacetas.data().descripcion.toLowerCase();
+        comparador = quitarAcentos(comparador);
+
+        console.log(comparador);
+        comparador2 = input.value.toLowerCase();
+        comparador2 = quitarAcentos(comparador2);
+
+        if (comparador.includes(comparador2)) {
+          resultados += `<div class="card mb-3 w-100" style="height: 16rem;">
+    <div class="row g-0">
+      <div class="col-md-4 p-3">
+      <a href="assets/pdf_gacetas/${gacetas.data().numero}.pdf" target="_blank">
+        <img src="assets/port_gacetas/${
+          gacetas.data().numero
+        }.jpg" class="img-fluid rounded-start" alt="594" width="160px" height="300px" ></a>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">${gacetas.data().documento_historico} - No.${
+            gacetas.data().numero
+          }</h5>
+          <p class="card-text">${gacetas.data().descripcion}</p>
+          <p class="card-text"><small class="text-muted">${
+            gacetas.data().clasificacion
+          }</small></p>
+        </div>
+      </div>
+    </div>
+  </div>`;
+        }
+      });
+      contenedor.innerHTML = resultados;
+
+      if (contenedor.innerHTML === "") {
+        contenedor.innerHTML += `<h2>No hay resultados...</h2>`;
+      }
+    });
+});
 
 // Initialize Cloud Storage and get a reference to the service
 

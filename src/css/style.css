@@ -17,6 +17,10 @@
   right: 0;
 }
 
+.logo-ciiemad {
+  border-radius: 100%;
+}
+
 .bg-IPN {
   background: rgba(104, 36, 68, 0.98);
 }
@@ -57,7 +61,7 @@
   justify-content: center;
   font-size: 30px;
 
-  font-family: Open Sans;
+  font-family: Teko;
   color: #fff;
   background: rgb(44, 43, 43);
   z-index: 1;
@@ -83,6 +87,7 @@ div.conjunto {
 }
 
 .banderin {
+  border-radius: 100%px;
   background-color: gray;
   background-size: cover;
   margin: auto;
@@ -125,6 +130,7 @@ div.conjunto {
 /*Estilso contenedor CV Decana*/
 
 .contenedorCVDecana {
+  font-size: 20px;
   min-height: 1300px;
   background-color: #fff;
 }
@@ -135,16 +141,17 @@ h1.titulo {
   font-weight: 600;
   margin-bottom: 0px;
   padding-bottom: 3rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Roboto;
   box-sizing: border-box;
 }
 
 .contenedorTituloDecana {
-  margin-top: 10px;
+  min-height: 180px;
+
   background-color: #fff;
 }
-.contenedorTitulo {
+.contenedorTituloGacetas {
+  margin-top: 10px;
   background-color: #fff;
   padding-top: 20px;
 }
@@ -156,9 +163,11 @@ h1.titulo {
 }
 
 div.contenedorCVDecana p {
+  font-size: 2rem;
+  font-family: Roboto;
   font-size: 16px;
-  color: black;
-  font-family: sans-serif;
+  color: #666;
+
   text-align: justify;
 }
 
@@ -171,4 +180,14 @@ div.contenedorCVDecana p {
   min-height: 1000px;
   background-color: #fff;
   padding-top: 20px;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.contenedorRuta {
+  min-height: 50px;
+  margin-top: 10px;
+  background-color: #fff;
 }
