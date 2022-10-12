@@ -25,10 +25,10 @@ app.get("/", function (req, res) {
 });
 
 var conexion = mysql.createConnection({
-  host: "localhost",
-  database: "archivo_historico",
-  user: "root",
-  password: "Gala1999+",
+  host: "https://databases.000webhost.com/",
+  database: "id19682704_decanato_ciiemad",
+  user: "id19682704_root",
+  password: "!#qc-F2i<RlzE?-D",
 });
 
 conexion.connect(function (error) {

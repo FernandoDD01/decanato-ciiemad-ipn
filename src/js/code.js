@@ -93,13 +93,15 @@ boton.addEventListener("click", () => {
         comparador2 = quitarAcentos(comparador2);
 
         if (comparador.includes(comparador2)) {
-          resultados += `<div class="card mb-3 w-100" style="height: 16rem;">
+          resultados += `<div class="card w-75 mt-3 mx-auto" style="height: 16rem;">
     <div class="row g-0">
-      <div class="col-md-4 p-3">
+      <div class="col-md-4 p-3 justify-content-center">
       <a href="assets/pdf_gacetas/${gacetas.data().numero}.pdf" target="_blank">
         <img src="assets/port_gacetas/${
           gacetas.data().numero
-        }.jpg" class="img-fluid rounded-start" alt="594" width="160px" height="300px" ></a>
+        }.jpg" class="img-fluid rounded-start mx-auto d-block" alt=alt="${
+            gacetas.data().numero
+          }" width="160px" height="300px"></a>
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -119,7 +121,7 @@ boton.addEventListener("click", () => {
       contenedor.innerHTML = resultados;
 
       if (contenedor.innerHTML === "") {
-        contenedor.innerHTML += `<h2>No hay resultados...</h2>`;
+        contenedor.innerHTML += `<h2 class="text-center">No hay resultados...</h2>`;
       }
     });
 });

@@ -181,6 +181,25 @@ div.contenedorCVDecana p {
   padding-top: 20px;
 }
 
+.contenedorHistoria {
+  min-height: 1000px;
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.contenedorLineaDelTiempo {
+  width: 1600px;
+  height: 540px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: black;
+  display: block;
+}
+
+.contenedorIframe {
+  height: 600px;
+}
+
 .card p {
   text-align: justify;
 }
