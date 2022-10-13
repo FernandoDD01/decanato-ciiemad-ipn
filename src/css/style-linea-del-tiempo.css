@@ -289,7 +289,7 @@ body::-webkit-scrollbar-button:horizontal:single-button:increment:hover {
 .btn-creacion-CIIEMAD {
   position: absolute;
   bottom: 245px;
-  left: 90px;
+  left: 430px;
 }
 
 .contenedor-linea-creacion-CIIEMAD {
@@ -297,7 +297,7 @@ body::-webkit-scrollbar-button:horizontal:single-button:increment:hover {
   transform: rotate(90deg);
   display: inline-block;
   bottom: 200px;
-  left: 130px;
+  left: 475px;
 }
 
 .contenedor-img-popup {
