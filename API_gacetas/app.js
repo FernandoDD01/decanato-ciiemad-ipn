@@ -1,55 +1,95 @@
-const express = require("express");
-const cors = require("cors");
+// Conexion a base de datos con sequelize e insercion de datos de archico CVS a SQL//
+
+//librerias
+const readline = require("readline");
+const fs = require("fs");
+const Sequelize = require("sequelize");
+const firebase = require("firebase");
 const mysql = require("mysql");
 
-const app = express();
-const morgan = require("morgan");
-
-//Uso de cors
-app.use(cors());
-
-//middleware
-
-app.use(morgan("dev"));
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
-
-app.set("port", process.env.PORT || 3000);
-
-app.listen(app.get("port"), function () {
-  console.log("Server ok en puerto:" + app.get("port"));
+//conexion con sequelize
+const sequelize = new Sequelize("archivo_historico", "root", "Gala1999+", {
+  host: "localhost",
+  dialect: "mysql",
 });
 
-app.get("/", function (req, res) {
-  res.send("Ruta de prueba");
-});
+//funcion que lee linea por linea al documento CSV y lo inserta en la base de datos SQL
+const insertGacetas = async () => {
+  await sequelize.authenticate();
 
+  const file = readline.createInterface(fs.createReadStream("registroSQL.csv"));
+  const gacetas = [];
+
+  file.on("line", async (line) => {
+    gacetas.push(line.split(","));
+  });
+
+  file.on("close", async () => {
+    await sequelize.query({
+      query:
+        "INSERT INTO gacetas (area, soporte, documento_historico, numero, anio, fecha, tipo, imagen, descripcion, ejemplares,clasificacion) VALUES ?",
+      values: [gacetas],
+    });
+  });
+};
+
+//insertGacetas(); //Activar función
+
+//conexion con base de datos de firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyBj0omjzGZ0VGWVgANO4qvUfZFO3EQQg1U",
+  authDomain: "decanato-ciiemad-ipn.firebaseapp.com",
+  projectId: "decanato-ciiemad-ipn",
+  storageBucket: "decanato-ciiemad-ipn.appspot.com",
+  messagingSenderId: "239098004211",
+  appId: "1:239098004211:web:43650b37aa3786c4622d86",
+  measurementId: "G-BQDKX7BKGY",
+  // ...
+};
+
+//conexion  con base de datos MySQL (de forma local)
 var conexion = mysql.createConnection({
-  host: "https://databases.000webhost.com/",
-  database: "id19682704_decanato_ciiemad",
-  user: "id19682704_root",
-  password: "!#qc-F2i<RlzE?-D",
+  host: "localhost",
+  database: "archivo_historico",
+  user: "root",
+  password: "Gala1999+",
 });
 
-conexion.connect(function (error) {
+//inicializar firestore
+firebase.initializeApp(firebaseConfig);
+// Inicializar Cloud Firestore
+const db = firebase.firestore();
+
+//SELECT  a base de datos de MySQL
+conexion.query("SELECT * FROM gacetas", (error, results) => {
   if (error) {
     throw error;
-  } else {
-    console.log("CONEXION EXITOSA");
+    conexion.end();
   }
-});
-
-app.get("/api/gacetas/", (req, res) => {
-  conexion.query("SELECT * FROM gacetas", (error, results) => {
-    if (error) {
-      throw error;
-      conexion.end();
-    }
-    {
-      results.forEach((results) => {
-        console.log(results);
-      });
-      res.send(results);
-    }
-  });
+  {
+    //Por cada registro en MySQL se realiza una insercion (add) a la base de datos de firestore en la tabla "gacetas"
+    results.forEach((results) => {
+      db.collection("gacetas")
+        .add({
+          id: results.numero,
+          area: results.area,
+          soporte: results.soporte,
+          documento_historico: results.documento_historico,
+          numero: results.numero,
+          anio: results.anio,
+          fecha: results.fecha,
+          tipo: results.tipo,
+          imagen: results.imagen,
+          descripcion: results.descripcion,
+          ejemplares: results.ejemplares,
+          clasificacion: results.clasificacion,
+        })
+        .then((docRef) => {
+          console.log("Document written with ID: ", docRef.id); //El ID que se genera es random de 20 caracteres
+        })
+        .catch((error) => {
+          console.error("Error adding document: ", error);
+        });
+    });
+  }
 });

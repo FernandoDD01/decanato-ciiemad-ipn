@@ -42,7 +42,7 @@ db.collection("gacetas")
         <div class="card-body">
           <h5 class="card-title px-5">${
             gacetas.data().documento_historico
-          } - No.${gacetas.data().numero}</h5>
+          } - No.${gacetas.data().id}</h5>
           <p class="card-text px-5">${gacetas.data().descripcion}</p>
           <p class="card-text px-5"><small class="text-muted">${
             gacetas.data().clasificacion
