@@ -130,7 +130,7 @@ div.conjunto {
 
 .contenedorCVDecana {
   font-size: 20px;
-  min-height: 1300px;
+  min-height: 900px;
   background-color: #fff;
 }
 
@@ -144,9 +144,18 @@ h1.titulo {
   box-sizing: border-box;
 }
 
+.pieFotoDecana {
+  color: gray;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-bottom: 3rem;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
 .contenedorTituloDecana {
   min-height: 180px;
-
   background-color: #fff;
 }
 .contenedorTituloGacetas {
@@ -173,6 +182,12 @@ div.contenedorCVDecana p {
 .contenedorCVDecana p {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.parrafo1 {
+  padding-top: 40px;
+  padding-left: 80px !important;
+  padding-right: 80px !important;
 }
 
 .contenedorGacetas {
@@ -208,4 +223,9 @@ div.contenedorCVDecana p {
   min-height: 50px;
   margin-top: 10px;
   background-color: #fff;
+}
+
+.contenedorPaginacion {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
