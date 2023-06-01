@@ -8,7 +8,6 @@
       name="description"
       content="En esta pagina del Decanato de CIIEMAD se busca resguardar todos eventos y documentos en un archivo historico"
     />
-    <!--<base href="https://decanato-ciiemad-ipn.web.app/">-->
     <title>Decanato CIIEMAD IPN</title>
     <link rel="icon" href="assets/imagenes/favicon.jpg" />
     <link rel="apple-touch-icon" href="assets/imagenes/favicon.jpg" />
@@ -183,83 +182,28 @@
           class="contenedorAccesibilidad u-oculto"
         ></div>
       </nav>
-
-      <!--Contenedor Nombre Instituto-->
-      <div class="espaciosID">
-        <div class="contenedorEscuela">Decanato CIIEMAD IPN</div>
-      </div>
     </div>
 
-    <!--Contenedor Carrusel-->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide espaciosID espaciosAB contenedorCarrusel"
-      data-bs-ride="true"
-      style="z-index: 1"
-    >
-      <div class="carousel-indicators">
-        <buttons
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></buttons>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="assets/imagenes/Banner_REDAALC.jpg"
-            class="d-block w-100"
-            alt="aviso1"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/imagenes/Banner_CIMA_2023.jpg"
-            class="d-block w-100"
-            alt="aviso2"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/imagenes/ciiemad_50dmma.jpg"
-            class="d-block w-100"
-            alt="aviso3"
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <!--Ruta de la pagina-->
+    <div class="container contenedorRuta">
+      <nav aria-label="breadcrumb ">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item mx-2 my-2">
+            <a href="index.html">Inicio</a>
+          </li>
+          <li class="breadcrumb-item active mx-2 my-2" aria-current="page">
+            Galeria
+          </li>
+
+          <li class="breadcrumb-item active my-2" aria-current="page">Fotos</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!--Contenedor Titulo Profesores-->
+
+    <div class="container contenedorTituloDecana d-flex justify-content-center">
+      <h1 class="titulo" style="margin-top: 45px">Fotos</h1>
     </div>
 
     <!--Espacio abajo del carrusel-->
@@ -309,8 +253,6 @@
       </div>
     </footer>
 
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -321,6 +263,5 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="/src/js/code.js"></script>
   </body>
 </html>
