@@ -1,0 +1,145 @@
+:root {
+  --color--IPN--guinda: rgba(104, 36, 68, 0.98);
+  --color-oxford: #202224;
+  --color-mexico: #13322b;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+  visibility: visible;
+  background-size: auto;
+  bottom: 0;
+  right: 0;
+}
+header {
+  z-index: 2;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  z-index: 100;
+  background-color: var(--color--IPN--guinda);
+  margin: 30px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+  .escudo-ciiemad,
+  .banderin-vacio {
+    display: none;
+  }
+}
+
+.banderin {
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+
+.contenedorNavegador * {
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.contenedorNavegador .dropdown-item {
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.contenedorNavegador li:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s;
+}
+
+.contenedorEscuela {
+  margin-left: 30px;
+  margin-right: 30px;
+
+  margin-bottom: 10px;
+  font-size: 30px;
+
+  font-family: Teko;
+
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  background: rgb(44, 43, 43, 0.95);
+}
+
+.banderin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banderin-vacio {
+  position: absolute;
+}
+
+.escudo-ciiemad {
+  position: absolute;
+}
+
+.carousel {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.footer-guinda {
+  flex-basis: 100px;
+  background-color: var(--color--IPN--guinda);
+}
+
+.footer-gray {
+  flex-basis: 200px;
+  background-color: var(--color-oxford);
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.footer-escudo-ipn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer-autor {
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-escudo-ciiemad {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

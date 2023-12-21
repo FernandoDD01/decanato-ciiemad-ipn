@@ -1,5 +1,10 @@
 /* Estilos propios */
+:root {
+  --color--IPN--guinda: rgba(104, 36, 68, 0.98);
+  --color-oxford: rgb(44, 43, 43);
+}
 
+/*Fondo de la pagina*/
 .background {
   position: fixed;
   left: 50%;
@@ -22,7 +27,7 @@
 }
 
 .bg-IPN {
-  background: rgba(104, 36, 68, 0.98);
+  background: var(--color--IPN--guinda);
 }
 
 .color-black * {
