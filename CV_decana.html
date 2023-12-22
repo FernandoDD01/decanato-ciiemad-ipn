@@ -23,289 +23,95 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/css/style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/main.css" />
   </head>
 
   <body>
     <img class="background" src="assets/imagenes/Edificio_CIIEMAD.jpg" />
     <header></header>
 
-    <!--contenedor Gobierno-->
-    <!--<div class="bg-ligth espaciosAB espaciosID">
-      <div class="contenedorGobierno">Gobierno</div>
-    </div>-->
+    <main>
+      <!--Contenedor Ruta-->
+      <div class="container contenedorRuta">
+        <nav aria-label="breadcrumb ">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item mx-2 my-2">
+              <i class="bx bxs-home"></i>
+              <a href="index.html">Inicio</a>
+            </li>
 
-    <!--Conjuto Navegador y nombre del instituto-->
-    <div class="position-sticky position conjunto">
-      <!--navegador-->
-      <nav
-        class="navbar navbar-expand-lg bg-IPN espaciosID navbar-dark contenedorNavegador"
-      >
-        <div class="container-fluid justify-content-center">
-          <img
-            src="assets/imagenes/banderin-ciiemad.png"
-            alt="banderin"
-            class="banderin-img justify-content-left"
-          />
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="true"
-            aria-label="Toggle navigation"
-          >
-            <a class="navbar-brand" href="#">Menú Principal</a>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNavDropdown"
-            style="margin-top: 0px"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  href="index.html"
-                  class="nav-link active"
-                  aria-current="page"
-                  title="Inicio"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="CV_decana.html" class="nav-link" title="CV-decana"
-                  >Decana</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  title="Archivo-Historico"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Archivo Histórico</a
-                >
-                <ul class="dropdown-menu color-black">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Hechos_historicos.html"
-                      title="Hechos historicos"
-                    >
-                      Hechos Históricos</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Gacetas.html"
-                      title="Gacetas"
-                    >
-                      Gacetas</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="Historial_del_CIIEMAD.html"
-                  class="nav-link"
-                  title="Hechos_historicos_IPN"
-                  >Historia del CIIEMAD</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  title="Personas_destacadas"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Personas destacadas</a
-                >
-                <ul class="dropdown-menu color-black">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Profesores.html"
-                      title="Profesores"
-                    >
-                      Profesores</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Alumnos.html"
-                      title="Alumnos"
-                    >
-                      Alumnos</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  title="Galeria"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Galeria</a
-                >
-                <ul class="dropdown-menu color-black">
-                  <li>
-                    <a class="dropdown-item" href="Fotos.html" title="Fotos">
-                      Fotos</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Videos.html" title="Videos">
-                      Videos</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div
-          id="contenedorAccesibilidad-scroll"
-          class="contenedorAccesibilidad u-oculto"
-        ></div>
-      </nav>
-    </div>
-
-    <!--Contenedor Ruta-->
-    <div class="container contenedorRuta">
-      <nav aria-label="breadcrumb ">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item mx-2 my-2">
-            <a href="index.html">Inicio</a>
-          </li>
-
-          <li class="breadcrumb-item active my-2" aria-current="page">
-            Decana
-          </li>
-        </ol>
-      </nav>
-    </div>
-
-    <!--Contenedor CV decana-->
-
-    <div class="container contenedorTituloDecana d-flex justify-content-center">
-      <h1 class="titulo text-center" style="margin-top: 45px">
-        Biografía de la M. en C. María de la Luz Valderrábano Almegua <br />
-        (Decana del CIIEMAD)
-      </h1>
-    </div>
-
-    <div class="container text-center contenedorCVDecana">
-      <figure class="figure text-center">
-        <img
-          class="rounded"
-          src="assets/imagenes/foto_perfil_decana.jpg"
-          alt="foto_decana"
-        />
-        <figcaption class="figure-caption text-center pieFotoDecana">
-          M. en C. María de la Luz Valderrábano Almegua
-        </figcaption>
-      </figure>
-
-      <p class="parrafo1">
-        Maestra Decana del Centro Interdisciplinario de Investigaciones y
-        Estudios sobre Medio Ambiente y Desarrollo (CIIEMAD) del Instituto
-        Politécnico Nacional (IPN). Cuenta con estudios de Maestría en Ciencias
-        en la Especialidad de Metodología de la Ciencia en Proyecto de Estudios
-        Sociales Tecnológicos y Científicos del IPN, Ingeniería Química
-        Industrial en la Escuela Superior de Ingeniería Química e industrias
-        Extractivas (ESIQIE) del IPN, Ha dirigido proyectos y participado en
-        proyectos institucionales en temáticas de: Análisis de la política
-        ambiental en México Gestión del trabajo decente, Evaluación de las
-        metodologías de políticas públicas Mobbing e inteligencia emocional,
-        contaminación ambiental y educación Evaluación de Políticas Públicas,
-        Análisis de la Sustentabilidad en los proyectos de 2015 a la fecha se
-        utilizado como herramienta de análisis el software ATLAS.Ti. Ha dirigido
-        proyectos externos al IPN. Evaluación de consistencia y resultados del
-        programa de desarrollo regional sustentable para la CONANP Alineación y
-        adecuación de los procesos y proyectos del modelo de planeación
-        estratégica con las actividades prioritarias de la programación y
-        presupuestación para las unidades responsables de SEMARNAT Capacitación
-        especializada en desarrollo sustentable, biodiversidad para CONANP. Ha
-        dirigido tesis 5 tesis de licenciatura más de 34 tesis de Maestría en
-        Ciencias en las temáticas: Metaevaluación, Reordenamiento territorial
-        Comunitario Turismo y desarrollo sustentable, Gestión Integral de
-        Residuos Sólidos en zonas rurales, Desarrollo, Necesidades Humanas y
-        Calidad de Vida, Áreas Naturales, Energía, Sustentabilidad, Evaluación
-        de política pública por lo menos la mitad de ellas con mención
-        honorifica En cinco de estas tesis se ha utilizado como una de las
-        herramientas de Análisis el software ATLAS.ti. Publicaciones en revistas
-        libros y capítulos de libros en aspectos vinculados a los proyectos de
-        investigación, y se han publicado más de 100 trabajos in extenso en
-        memorias de congresos nacionales e internacionales. De 2017 a la fecha
-        en el CIIEMAD se imparte el curso de propósito específico a nivel
-        posgrado “LA INVESTIGACIÓN CIENTÍFICA APOYADA EN EL USO DEL SOFTWARE
-        ATLAS.Ti, y se nos ha otorgado el sello de calidad como la primera
-        institución mexicana autorizada para impartir este tipo de formación. Es
-        becario SIBE‐IPN y EDI‐IPN, ORCID: orcid.org/0000‐0002‐3227‐9750; Correo
-        electrónico: mvalderrabano@ipn.mx, CVU CONACYT: 80307
-      </p>
-    </div>
-
-    <!--Espacio abajo del carrusel-->
-    <div class="bg-light" style="margin-top: 10px">
-      <div class="abajo-Carrusel"></div>
-    </div>
-
-    <div class="bg-IPN">
-      <div class="contenedorGinda"></div>
-    </div>
-
-    <footer class="bd-footer py-4 py-md-5 bg-dark">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-2">
-            <a href="https://www.ipn.mx/" target="_blank">
-              <img
-                class="img-fluid"
-                src="/assets/imagenes/Logo_IPN.png"
-                alt="Logo_IPN"
-                width="120"
-                height="240"
-              />
-            </a>
-          </div>
-          <div class="col-8">
-            <ul class="list-unstyled small text-muted text-center">
-              <li class="mb-2 fw-bolder">
-                © Todos los derechos reservados - Fernando Enrique Alvarado
-                Bolaños - Septiembre 2023
-              </li>
-
-              <li class="mb-2 fw-bolder">Versión 1 . 0 . 0</li>
-            </ul>
-          </div>
-          <div class="col-2">
-            <a href="https://www.ciiemad.ipn.mx/" target="_blank"
-              ><img
-                class="img-fluid logo-ciiemad"
-                src="/assets/imagenes/banderin-ciiemad.png"
-                alt="Logo_IPN"
-                width="120"
-                height="240"
-            /></a>
-          </div>
-        </div>
+            <li class="breadcrumb-item active my-2" aria-current="page">
+              Decana
+            </li>
+          </ol>
+        </nav>
       </div>
-    </footer>
+
+      <div class="titulo">
+        <h1>M. en C. María de la Luz Valderrábano Almegua <br /></h1>
+        <h1>(Decana del CIIEMAD)</h1>
+      </div>
+
+      <div class="container text-center contenedorCVDecana">
+        <figure class="figure text-center">
+          <img
+            class="rounded"
+            src="assets/imagenes/foto_perfil_decana.jpg"
+            alt="foto_decana"
+          />
+          <figcaption class="figure-caption text-center pieFotoDecana">
+            M. en C. María de la Luz Valderrábano Almegua
+          </figcaption>
+        </figure>
+
+        <p>
+          Maestra Decana del Centro Interdisciplinario de Investigaciones y
+          Estudios sobre Medio Ambiente y Desarrollo (CIIEMAD) del Instituto
+          Politécnico Nacional (IPN). Cuenta con estudios de Maestría en
+          Ciencias en la Especialidad de Metodología de la Ciencia en Proyecto
+          de Estudios Sociales Tecnológicos y Científicos del IPN, Ingeniería
+          Química Industrial en la Escuela Superior de Ingeniería Química e
+          industrias Extractivas (ESIQIE) del IPN, Ha dirigido proyectos y
+          participado en proyectos institucionales en temáticas de: Análisis de
+          la política ambiental en México Gestión del trabajo decente,
+          Evaluación de las metodologías de políticas públicas Mobbing e
+          inteligencia emocional, contaminación ambiental y educación Evaluación
+          de Políticas Públicas, Análisis de la Sustentabilidad en los proyectos
+          de 2015 a la fecha se utilizado como herramienta de análisis el
+          software ATLAS.Ti. Ha dirigido proyectos externos al IPN. Evaluación
+          de consistencia y resultados del programa de desarrollo regional
+          sustentable para la CONANP Alineación y adecuación de los procesos y
+          proyectos del modelo de planeación estratégica con las actividades
+          prioritarias de la programación y presupuestación para las unidades
+          responsables de SEMARNAT Capacitación especializada en desarrollo
+          sustentable, biodiversidad para CONANP. Ha dirigido tesis 5 tesis de
+          licenciatura más de 34 tesis de Maestría en Ciencias en las temáticas:
+          Metaevaluación, Reordenamiento territorial Comunitario Turismo y
+          desarrollo sustentable, Gestión Integral de Residuos Sólidos en zonas
+          rurales, Desarrollo, Necesidades Humanas y Calidad de Vida, Áreas
+          Naturales, Energía, Sustentabilidad, Evaluación de política pública
+          por lo menos la mitad de ellas con mención honorifica En cinco de
+          estas tesis se ha utilizado como una de las herramientas de Análisis
+          el software ATLAS.ti. Publicaciones en revistas libros y capítulos de
+          libros en aspectos vinculados a los proyectos de investigación, y se
+          han publicado más de 100 trabajos in extenso en memorias de congresos
+          nacionales e internacionales. De 2017 a la fecha en el CIIEMAD se
+          imparte el curso de propósito específico a nivel posgrado “LA
+          INVESTIGACIÓN CIENTÍFICA APOYADA EN EL USO DEL SOFTWARE ATLAS.Ti, y se
+          nos ha otorgado el sello de calidad como la primera institución
+          mexicana autorizada para impartir este tipo de formación. Es becario
+          SIBE‐IPN y EDI‐IPN, ORCID: orcid.org/0000‐0002‐3227‐9750; Correo
+          electrónico: mvalderrabano@ipn.mx, CVU CONACYT: 80307
+        </p>
+      </div>
+    </main>
+
+    <footer></footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -317,5 +123,7 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+
+    <script type="module" src="/src/js/dom.js"></script>
   </body>
 </html>
