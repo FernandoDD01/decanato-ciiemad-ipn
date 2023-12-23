@@ -186,3 +186,31 @@ footer {
   justify-content: start;
   align-items: center;
 }
+
+/*CV decana*/
+
+.bio-decana {
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-decana {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv-figcaption {
+  color: gray;
+  font-size: 14px;
+}
+
+.cv-text {
+  margin: 20px;
+  padding: 20px;
+}
+
+.cv-contacto {
+  font-style: italic;
+}
