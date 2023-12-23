@@ -1,0 +1,26 @@
+.galeria {
+  max-width: 1290px;
+  margin: 20px 60px 20px 60px;
+  padding: 20px;
+  border: solid thin gray;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contentGaleria {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contentImg {
+  margin: 10px;
+}

@@ -1,11 +1,12 @@
 :root {
-  --color--IPN--guinda: rgba(104, 36, 68, 0.98);
+  --color--IPN--guinda: rgba(104, 36, 68);
   --color-oxford: #202224;
   --color-mexico: #13322b;
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
+
   display: flex;
   flex-direction: column;
 }
@@ -27,12 +28,20 @@ body {
   right: 0;
 }
 header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   z-index: 2;
 }
 
 main {
+  align-self: center;
+  max-width: 1200px;
   min-width: 550px;
-  margin: 40px 150px;
+  margin: 40px;
   background-color: #fff;
   flex-grow: 1;
 }
@@ -47,6 +56,7 @@ main h1 {
 }
 
 .main-inicio {
+  max-width: 100%;
   margin: 40px 40px;
   background-color: transparent;
 }
@@ -65,11 +75,12 @@ footer {
 }
 
 .contenedorNavegador {
+  transition: opacity 0.3s;
+  margin: 10px 30px 10px 30px;
+
   min-width: 750px;
   z-index: 100;
   background-color: var(--color--IPN--guinda);
-  margin: 30px;
-  margin-bottom: 10px;
 }
 
 .dropdown-item:active {
@@ -207,6 +218,7 @@ footer {
 }
 
 .cv-text {
+  text-align: justify;
   margin: 20px;
   padding: 20px;
 }
