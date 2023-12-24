@@ -1,5 +1,6 @@
+/*Control del header y el footer */
+
 const $header = document.querySelector("header"),
-  $main = document.querySelector("main"),
   $footer = document.querySelector("footer");
 
 $header.innerHTML = ``;
@@ -59,14 +60,14 @@ $header.innerHTML += `
                 >
               </li>
               <li class="nav-item">
-                <a href="CV_decana.html" class="nav-link" title="CV-decana"
+                <a href="CV_decana.html" class="nav-link" title="Decana"
                   >Decana</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  title="Archivo-Historico"
+                  title="Archivo Histórico"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -78,7 +79,7 @@ $header.innerHTML += `
                     <a
                       class="dropdown-item"
                       href="Hechos_historicos.html"
-                      title="Hechos historicos"
+                      title="Hechos históricos"
                       ><div class="selected" style="display: none"></div>
                       <p>Hechos Históricos</p>
                     </a>
@@ -98,14 +99,14 @@ $header.innerHTML += `
                 <a
                   href="Historial_del_CIIEMAD.html"
                   class="nav-link"
-                  title="Hechos_historicos_IPN"
+                  title="Historia del CIIEMAD"
                   >Historia del CIIEMAD</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  title="Personas_destacadas"
+                  title="Personas destacadas"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -177,7 +178,7 @@ if (document.querySelector("body").classList.contains("root")) {
 $footer.innerHTML = ` <div class="footer-guinda"></div>
 <div class="footer-gray">
   <div class="footer-escudo-ipn">
-    <a href="https://www.ipn.mx/" target="_blank">
+    <a href="https://www.ipn.mx/" target="_blank" rel="noreferrer">
       <img
         src="/assets/imagenes/Logo_IPN.png"
         alt="escudo-IPN"
@@ -190,11 +191,23 @@ $footer.innerHTML = ` <div class="footer-guinda"></div>
   <div class="footer-autor">
     <p>© Todos los derechos reservados</p>
     <p>- Fernando Enrique Alvarado Bolaños -</p>
+    
+
     <p>Enero 2024</p>
+
+    <div class="contact">
+    <p>fealvarado07@gmail.com </p>
+    <div class="contact-icons">
+    <a href="https://github.com/FernandoDD01" target="_blank" rel="noreferrer"><i class='bx bxl-github bx-md' title="Github"></i></a>
+    <a href="https://www.linkedin.com/in/fernando-enrique-alvarado" target="_blank" rel="noreferrer"><i class='bx bxl-linkedin-square bx-md' title="Linkedin"></i></a>
+    </div>
+    
+    </div>
+    
   </div>
 
   <div class="footer-escudo-ciiemad">
-    <a href="https://www.ciiemad.ipn.mx/" target="_blank"
+    <a href="https://www.ciiemad.ipn.mx/" target="_blank" rel="noreferrer"
       ><img
         src="/assets/imagenes/banderin-ciiemad.png"
         alt="escudo-ciiemad"
