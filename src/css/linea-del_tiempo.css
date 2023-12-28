@@ -1,0 +1,162 @@
+:root {
+  --color--internalizacion: #409234;
+  --color--normatividad: #6e9ffa;
+  --color--pimadi: #b35782;
+}
+
+.main-historia-ciiemad {
+  min-width: 60%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-linea-tiempo {
+  background-color: #f5f5f5;
+
+  margin: 30px 30px 50px 30px;
+
+  height: 700px;
+
+  border: solid black;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.contenedor-cards {
+  background-color: whitesmoke;
+  flex-grow: 1;
+  display: flex;
+}
+
+.contenedor-barra {
+  background-color: whitesmoke;
+
+  flex-basis: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.indices {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.barra {
+  flex-basis: 50%;
+}
+
+.inter {
+  border: solid var(--color--internalizacion);
+}
+
+.norma {
+  border: solid var(--color--normatividad);
+}
+
+.pimadi {
+  border: solid var(--color--pimadi);
+}
+
+.fecha {
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card-fecha {
+  box-shadow: 2px 2px 5px black;
+  background-color: white;
+  cursor: pointer;
+  order: 100;
+  border-radius: 8px;
+  width: 170px;
+  height: 60px;
+  display: flex;
+  flex-flow: row;
+}
+
+.content-img img {
+  object-fit: cover;
+  width: 59px;
+  height: 54px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-fecha {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.content-fecha p {
+  margin: 10px;
+  word-wrap: break-word;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.linea-fecha {
+  order: 101;
+  margin-top: 2px;
+  width: 1px;
+  height: 60px;
+  border: solid black;
+  border-style: dashed;
+  border-width: 1px;
+  margin-left: 50%;
+}
+
+.misma-fecha {
+  z-index: -1;
+}
+
+/*Indice*/
+
+.contenedor-barra {
+  display: flex;
+}
+
+.content-indice {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  /*border: solid red;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.linea-indice {
+  width: 2px;
+  height: 26px;
+  background-color: black;
+  order: 2;
+}
+
+.fecha-indice {
+  text-align: center;
+  width: 170px;
+  order: 1;
+}
+
+.dibujo-barra {
+  border-radius: 10px;
+  margin: 0px 100px 0px 100px;
+  width: 1300px;
+  height: 20px;
+  background-color: black;
+}

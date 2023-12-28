@@ -36,13 +36,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/css/linea-del_tiempo.css" />
+
+    <link rel="stylesheet" href="src/css/overlay-popup.css" />
   </head>
 
   <body>
     <img class="background" src="assets/imagenes/Edificio_CIIEMAD.jpg" />
     <header></header>
 
-    <main>
+    <main class="main-historia-ciiemad">
       <!--Ruta de la pagina-->
       <div class="container contenedorRuta">
         <nav aria-label="breadcrumb ">
@@ -68,22 +71,35 @@
 
       <!--Contenedor de la linea del tiempo-->
 
-      <div class="container contenedorHistoria">
-        <div class="container">
-          <div class="container text-center">
-            <h2>Línea del tiempo de la historia del CIIEMAD</h2>
-          </div>
+      <div class="contenedorHistoria">
+        <div class="subtitulo">
+          <h2>Línea del tiempo de la historia del CIIEMAD</h2>
+        </div>
 
-          <iframe
-            class="container contenedorIframe"
-            src="/linea_del_tiempo.html"
-            frameborder="0"
-          ></iframe>
+        <div class="contenedor-linea-tiempo">
+          <div class="contenedor-cards"></div>
+          <div class="contenedor-barra">
+            <div class="indices"></div>
+            <div class="barra">
+              <div class="dibujo-barra"></div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
 
     <footer></footer>
+
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+        <i class="fas fa-times btn-cerrar-popup"></i>
+        <div class="imagen-card"></div>
+
+        <div class="titulo-card"></div>
+
+        <div class="parrafo-card"></div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -95,8 +111,8 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
-    <script src="src/js/popup.js"></script>
-    <script src="src/js/interacion.js"></script>
+    <!--<script src="src/js/popup.js"></script>-->
+    <script src="src/js/control-linea-tiempo.js"></script>
     <script src="src/js/dom.js"></script>
     <script type="module" src="/src/js/navsticky.js"></script>
   </body>

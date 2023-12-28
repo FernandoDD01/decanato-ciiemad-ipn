@@ -17,23 +17,68 @@
 }
 
 .popup {
+  width: 500px;
   background: #f8f8f8;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   padding: 0px;
   text-align: center;
-  width: auto;
   transition: 0.3s ease all;
   transform: scale(0.7);
   opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-card img {
+  position: relative;
+
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.titulo-card {
+  padding: 20px;
+  flex-basis: 60px;
+
+  width: inherit;
+  word-wrap: break-word;
+
+  background-color: #682444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-card h3 {
+  margin: 40px;
+}
+
+.parrafo-card {
+  text-align: justify;
+  margin: 20px;
+}
+
+.popup i {
+  cursor: pointer;
+  position: relative;
+  bottom: -10px;
+  right: 10px;
+  z-index: 100;
+  align-self: flex-end;
 }
 
 .popup .btn-cerrar-popup {
-  font-size: 20px;
-  line-height: 20px;
-  display: block;
-  text-align: right;
+  margin: 0;
+  height: 0px;
+  font-size: 30px;
+
   transition: 0.3s ease all;
   color: #bbbbbb;
 }
@@ -46,6 +91,10 @@
 
 .popup .btn-cerrar-popup:hover {
   color: #682444;
+}
+
+.img-popup {
+  object-fit: cover;
 }
 
 .popup h3 {

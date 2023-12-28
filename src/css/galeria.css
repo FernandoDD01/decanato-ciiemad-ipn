@@ -78,3 +78,7 @@
   height: 600px;
   object-fit: contain;
 }
+
+.popup {
+  width: 950px;
+}
