@@ -564,6 +564,339 @@
       "titulo": "Dirección general de bibliotecas",
       "contenido": "Se realizaron cuatro eventos interbibliotecarios organizados por la Dirección de Bibliotecas, de carácter científico, tecnológico y cultural, y que permitieron dar a conocer los avances de la Sociedad de Información y la Comunicación para mejorar los servicios bibliotecarios en el SIBSI.",
       "tipo": "PIMADI"
+    },
+    {
+      "id": 61,
+      "fecha": 2012,
+      "num": 1,
+      "imagen": "https://i.ytimg.com/vi/1zU8osrc1Bo/maxresdefault.jpg",
+      "titulo": "M. en C. en estudios ambientales",
+      "contenido": "La Maestría en Ciencias, con especialidad en “Medio Ambiente y Desarrollo Integrado entra en receso para posteriormente cerrarse, dando paso a la MAESTRÍA EN CIENCIAS EN ESTUDIOS AMBIENTALES Y DE LA SUSTENTABILIDAD incluida en el Programa Nacional de Posgrado de Calidad PNPC de CONACYT.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 62,
+      "fecha": 2012,
+      "num": 2,
+      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgWFhYYGBgaHBoZGhwcHSEcHB4cHBghGhgaHhwcIS4lHB4rIxoZJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBFAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xABEEAACAQIEAwUFAwsDBAEFAAABAhEAAwQSITEFQVEiYXGBkQYyobHBE1LRFBUjQmJykqKy4fAHgvFDU8LSFjNEVJPi/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAJREAAgICAgICAQUAAAAAAAAAAAECERIhMUEDE1FhMgQicYGR/9oADAMBAAIRAxEAPwAB8Q7kZmLdBy8gKKtYBj7xCDv1b+EfWKK4Xh5tZgYbMVJG57j60WthhsR5j8IrldI1sEtWEXZCx6vB9F29ZqdnJ3nzqUqw3APw/Go3cj9U1LoNgeJvBQDOzD46fWnflvQetQXLJuBo07Sj+cVY2eHKNxPj+ApNRQKwUX3fQSe4f2rt7CtkYsQuhPU+gqy+y0gaDoNBXUsoVcPHuPEnLrGlLL4HQCllByLnq2g/hX6k0nvNJUGFgGFGUc+Q8Ks8KiqGObXXTLI201/tQa2zJP7I+Z/GlboerBkTWrlNcMwgkydAJO6nQDU0CyVY4SRZaCRq22+y1pDhollJbtFiAOZgeseda/iOFD4Z1G6gMP8AbVJg7YN1RvHaMd230rU2FbLqIEHU6D1NEVpg2YTD2sxMbxA8WOX6mtPxLDBbIUjNlB8+wAf6aAXh9tAwa+gBaewC5yjYaaA6nnRt/i9kCAjv+8wUfyyedVGLolsBRQ1tdP1QfCOz0oTCcKvO5dUfLkgaEAkgLuYGxY0ceOOAAiogExlWSJ31aaFv424/vuzdxJj02q8QLO1gyi5XvW0UjtrIZvQA1GfyZZg3XkRAhEPzaqtRUmXaqpCosE4gqCLdi2g6kF29W8TSucSvN7zt4A5R6LFA29TCyx6KCx9BR9jht9trTx1aF/qIPwphoHWpkWu3bSJpdxGGtnpnzN/AIqB+KYJf+teunpbTKD5uPkaP5CwpaX26TGYT0Gp9BrVZc9orI9zB5u+85b+XtD41Dd9qcVlIT7K0IOiIOn7RI+FFoVmit2bje7ac+K5P6yKfcwjoJuNZtDq76+gAHxrHXsdibnv4i63cGyj0SKG/N4Blk16sCT6mnkgNZc4jhE9/Flz0spPxh/nQz+0GGHuYa9d77jwp/wBpYj+WqVLYjan5KWTCi1HtPiIi1ZsWR3KWPwyj4UPc4li39/EOB0QBB/KJ+NQ2bLN7qs37oLf0zRy8NuxJRgOp0+DEH4UWxFVcwobVyznq7F/6jSXDrsABVpcwIXW5dtWx+28H0j61HaGHJ7F5LuX34DKoBBAlpMmdgBSoYDdweVipZQQYI139K5Vw1tLzNcTIQzMSSDqZ8OkDypUUMquCj9G46OfpR4WgOGuqfbZiFAZTJMDWatVWuab4NEtshZahuppRjpTHTSoGVuATsv3Mp9Gmrv7CqzA2yftAATpy15Ve3LiL7zqPPX0GtKVt6CPAKcPQ97ABgzQJCmDz1FEPxK0NszeAgep/CqX2j9oTaw7uiAMRkUkliGbsg8hpJO3KiMG2NtFHx72p+zm3YAZgO0+4U9Av6x79h31kL/FL76u1wjoWOX+EGPhQ2EH3QSdvD8aK/JHP99BXbGMY6MnbO4b2jvAqrO0D3Sdx3HqK33sn7Sh1e26qzrrBkZhoM0CNtiO+sXgfZ57qlj2R+r1PeOgoIpcwl1X5qwII5jmp8RIoeL0uR4yStnrp4ncHuZUH7Chfjv8AGhrlxmMsxY9SSfnTLWIsMiub4hlDAIju0ETBJCgGl+W4cAlUuvBjtMqD0QE/Gs7rsDjGuIjOYRWb90FvlTU40QwCYeymoElS7b/eYn5U72g45iEVYdoMghTkG0jRQO+nmhBi8IvRLJkX7zsqD+Yz8KhcYdPfxdodRbDXT/IKpnsI1j7RlJcqGLMxYySJ3PjRns3gbTq73VJCR1j0XU+FGXwgCTxbBL7oxF3+C2h/8hUT+0oH/wBPC2V73LXT8Yovi2Gw11Wa2yi4I0nLIGhBDQBpOvdVEMKg969bHgxY+ig0ZMGqfH+ht32lxjaC7kX7qIqDyME/Gq+9ed/fuO/77s3zNXODwylHSZG+YAAxGaNTpoDQNh7JfJkc6kSzQNO5BRfyIEw+HXko3Gw8aub+FU2VyqMw97adtecmg8NiSXKCyiqD7wknSY1Y6VbogZEIADZm8dAp9BJ9aYitThrsoK6sdljX41Lb4ayh/tUgZGjtLMxpsfnRGOsNkQs8llYMeZlisydc0DcdKF4RYYKiEyO3IPPVpnrt8KLQw5eGpmY5x1CrOgJgAkjffbpRD2sPcdAC5kkSmoBCa55Xsjs6Ebkmu4MFjbmTrB1313PpSsJDuRpOUnzUH6mhMB3GLVrDWi6WTdYR2WZtju2mkDfaq7hXH88RbtWjIByoNJPNn301q346JRh1tD+isth7MKAOv1pSk00kCVneN+0GJLqEvOqxrGUEmTI0GnLnUvszcd7zu1x3hIOZiRJYRoTvoahx+FlEeI7ZQnxUMPkasOB2giE83YnyXQfGfWlk29jrRT+3VpWuo7DQqQNY1DEnl+0KL9mMKqBdPeV7hBAI90opk6gzqPGi+O2RcTUSVMjzEH5g+VNs4y1bbKzqoyhBmcAAKV1IPWG9ad7AI4YCqkd8+oB+tKmHitkk5XUjQAjUGFCzPlSqrYEWBWLlwdQD6f8ANHnEou7r5a/KqfHoc5joKatvqyjzn+gGudq0jStlq/E05Bm9FH1qF+JudlVfLMfjp8KCAQbsx8FA+JP0p9tk5JP7zE/05RSododcxTn3nMdJgeg0rtu0ze6jEdQpI9dqY+JYHsZV/dVQfWJ+NAG1ed3nO4lYzEkDsCdzpRoLLTJHvMi/vOCfRMx+FZn28dPsbYV8x+01AVgPcbm2p36Vo8Lwl/1hA7iJqk9r+HN9mqCGJ7Yjll0I79CacZJSQsW1SM57PWsxmNOdbrheDskdpVLcs2vwNZbglr9EuT3iD6zU44XdcHMuUjX9beebE6iOmsnatOZPZqtRSo1120CDECOnSsrx7Co9twCGYawDrprRFzCP+T5gxnMUOvKBVfhuFOpBynQySenLXed/7U4tc2Ek6qi/9iMCLti2WEqVeNejkcjPI1sm4cishVQvgAJ0I1671n/YJCtpgfdV3VNI7JYnz1JrWXrg07qzfLMHrRTYvhym7nO4jTkTyPwqTGYZSy5lBGhgiRtHPxojFXV0Mig8fxC2QO2v8QNQ+RA6sgJ90CduQ7q5wQuUbPOYsYB6B2y+AhfjTE4imVxrqVI7LGdT0XvpYbiSqZyOdDtlGsae8wqoyt6TAqMShJbcyjmJ6ITp2e486plC8wde6tNZvEPmKTEwC8bqV1gEc6APD2J0ZVHIQW+MrWiizTyTjJqukWfCrZhyDyU+WgGvL3qq0sZbrEmNv5jP0irPDl0BAcagKYSJAjqT0FMbD5jLO5/hH9KiqxZjY1LJS86nbsfExv8AGrWwMiI0CA7nu0CaesUFhsCrsB2mPZ3djse9qmKWREhNNpg+O9UloTYuI462UUZ0zAEESAZLMx03O/L/AJEwuKUOrgnLBnKjPuDOqqY1+dGHG2l0zKPAfgKiu8VtwdWOn3T9aMUFslw2KcBStq4xAbQrl3Uge+V5mprb3S5YWGUEKId0GoWD7jNpUf57tgaK/oPxrn59HJGPn/aqqIwrE28RcEFLSdgJOd3OgiYyL86FTgFyZN5BrMLbPzZz8qY/H3GyKPEn+1RN7RP1tr/neaHiAcPZwEQ1+8RIMDIBI2PuE8zzohPZ+zABNwxoP0rr8EYCqRuP3P8AuDyVfwqFuMudPtX8pHyFFwQGnHAMMd7CP++uf+uaKtYO2nuoiDuVV+QrDvjGO7O3ixPzahruLUESpMyZjpv30ZxQUei/llsafaJ/Gv412vOvyn9j/PSu0vah4stMSk3B3g/DWnm0K5jtHQ+I+FMe6YHgPlWC/EuX5EyWZMaDx7hJruQR11HLxj4UJ9oevwrqXQc2pnQ9Ofd41AE1rDdvNy76uFxaQ4kAnLE6coPyrNtiNYgk09rTlTltMXkcwBkgxvzmpasa0XVvFKHjOoE7mKreK3VcCGGddVOUxOxUmOY+QodMLeIMoF007QMmRvG1Rvgb55oPU/Skmhq07RSW1CMcvMk6bamdKtW40FQIWCk8z9KA4rba04VyCWRX2gQZiJ30A1/Cgr2FS5GYaiYIMeVbxjbtmmWtEx9oVRHTLPJRMgkc+UTr1qTC8eDrlG4Hw6VD+bLYWDbZj96dPlTMPg1zKiKAWOp5wNd+lXjGiXKS5NPw/EKttRny6SRMakydtdzRSYm2ysS8hSkyWO8igfyNNOzygSTAG8DXvPrT0sIFaFGsct4rJSV8GTQ77ZNSIMbwKGxOLAUGDrtT7GHKq23aJ06A6CPnUePwZKIvIN11lRz9aOxdDHxTDTJynf8AtTLGKuPGW2TO3IepozHJA7P3SfQd/nUvBreVAkScxPjmOw6nWrsQCly+0AIBJAkkAamNzy76jvXsQoBKETtEGfQ1fX8P2Nw0Nv1XNMj0IIpYlCURtoYN4jX4fhTsADCvKdvMH/v3GNqGVHJlkOUHXtDy08qu7VkZCTO4jv17RPgI0/aFDPbbblIjx1+FGxDcOmVgw07SEEd7DpHWiPyRWyCRrAOnM6A028dZjYWv/CfPc0Stn3DlOomeZ7TSfQL6U6EVF3ASQQxE9w6T0oN8NpIZiI02ju1Ao/E/aSFQpAEw0jWZ3HLb0quuC6DlZhpqe8sSTy6k1lu+Sui2tYUNaEe8dO+Moj6603AYYKSCdTIAM7lCAZ7iQfKpMOTp3nTXfTX57U6xhzPeJOneR9K0S7AE4nglnsgMTBJjUTmG/pTsRw4KgZh2tdNiOypBI6GaLv2zBn7oHmDP1+FHcaTO7LG4RI7iij11PpTpcgUWFwGYzpppETurNtz90/CiMThLcwIVR9qQR0WQk7bwB50rNkoCvMZY0jXKCOfQ799SXFkOwPWR3OJ1849KSSrgLA8DZQ3grCVzqCCJ7OeTyPIT5URiSoQDJqZMxyyAfOfWlg0ylHP6+h05ZYaNRy+dR4sEhYI97LPQax8hT6AhUFgCMu3OZ116d9KpbNsmSNp+QA+lKlQWTcU3Q99D4UnaBljQzqdekaetTcXbQHowoaxibYH6/wDL+NZp/to0kthqW52FK5hiszA/5qFOI215P/LXL/ErTbq/ky/hSCgK5dAbMNcp1oK9xq9bfN2mBDSCDliRGg/GjkSy7BVS8zMYCqyyT4ZK1WC/0/sNle/9pOvYDyNeTMqg+h86qMMiW6KPhfF/twoVHzaZgBInoIJJ2+FbPg/BmBzXABHurvr1PLyqzwHDLWHXJYtqg5gCCe8tuT3maJLtPuj1/tWkfBFOyXNtUU/tL7N2cbbCPKsvuOvvKf8AyXqD8DrXjvF+GYjBXMl5T1R11V16j4SNxNfQFUvGsBavHJdRXUiRO6nUSpGqnvFauNijKjxJOIk6E/P8K1PsXgVuu7MJUKF75YmTPKMo9aB9o/Zg4RxrmR5KNOukSrRpIkbb76bC+/0zw7M19o7IyD+onz29alNZYs1knjY7i/C7mHYFjnRiAjbeAPJW1HjB8mWV93NABMHwkanu1NbnieEW+hQhTk7XakjMB+yQdAfjWTx982CqvYskESpVmZTrrzmdt6iUKdoyTsBRGjfYnl1/sPhRVxEJIO0nlyOi+kt8OlcTjSjbD2fRv/apTxudTh7B8VJ+tDSHTAsfaAAAPLQ7+I08PjUnCbBLKVYSHAAPXNp/njRR41P/ANvh/wCCfrXU42Rth8OPBP70JIVMifCNkBzdnpPRmH/sfOuPhdFJYCVBA9R8QJ86J/Prf9mx/B/eu/ntv+1Y/g/vV6Jpgy3hkILLAHnoR+NRDFRA0IzDx919p5f2qwXjj8ktDwT+9PHG7n3bf8IoCitxNwQp5zb59CoozC3llVLA/qjUaa/33opeN3f2P4RUg43e6r/CKKHRRPhmY9hcxH3dTHPSZ6a1Hewb9pmtsoy7kRrBA1860f56vfeH8Ipfnq/94fwilguQ2U2EUqqNsyuTG+hHIwRtFE4V5csRyB2OpBmNBziKsPz1f+8P4R+Fd/PN/wC+P4R+FViMrMQjN+o0/ut9amx9t85YIdliATqqgchRf54v/e+A/Cu/ni99/wCAp4CKZEdmHYeZXe28TEHXLEAAV1OH3FFxcjQ8DRGO2xHZq5/PF77/AMB+FdHFr33/AICjALKmxgXEJkvQFgfo27Iy5e6duoph4TdUQEuNpzQiD1+VXP50vff+Aro4ld+8aMAsqMJw24FANm5P7h/GlVx+cbv3zSp4hZj+JkshygnY6a86pGUiTs3z6aU+5xJvvuO4aD4GmWMUXdQxJ15xy1+ledy7VnZwtj1sXD0rpwz8/lVoGAFW/spYW/f3BW3Dtz1nsg+J1/2mtoq3Rk9KzReyXA1w9pWdR9s4lidwCZC90CJ7/KtHXGrg11rrSpUYN2PpUqVMQxW5HegMQhL69AJ5c9asGWaiZeR8j9DTQFNxfhC4my9ptDujfdYe63zB6gmq32Zsvh8MlsLluuztcJ/VOcqJ6mFAHhWmUkNtUFxBmnr/AIPhSpXZWTqiThywDJkzJJ5zrPqTXOI4JLqlHWQde8HqDyNS4cQT/nP/AJqHG3stu48E5QWhdyFE6d8ChiPL+JD8nxTYZpLZc6t+qyGYO+/ZI8QaFt8UQkgK5I6LPyNav2qwa4hLGMVYe3KPqCcjCCpKmDlcqQejMedeYO/bYSfeI3P3qxdcouma5MUD+o/msfM1He4taRsrkq0TETp5VnksLpr0puJwyq06cqlCZpsJxO3cJVGJIBY6EaLudaJbFIu5jfkeW+3iKyvAWi84/YuD4TV5jLDvGRiACZ1icyrG3gabdAWSYlOvwP4U9sfbUSzgRuT3b1nbOHLPlM6bzry0qbH4cBH/AHW+RoUgNAOI2QyqbiBnXMoJ1ZfvAcxodaKW4vXv8q834liimIwrDX9BlE+LAH41cf8AyRkCK4GdZMgaZToVjl4k0SlKPCHGKfJtA69RS+3T76j/AHCs9g+P2rmZQwkRoNd9BMxz0qPGYZXmdZ7pEem9TDzNupKheSLirjs04upyZT5iu5x1HrWWw3DsmQAjKDJ03HpUwM4kidBb+bCqflV6FFN86NJIpVl8fhWOYjN3Zfe06elBWLVwIJD5pO8ztWinqyMnbVG1FOFUuIGVPIVVXMS/3iPM1PvXwaKFmyFOBrJ4biRCKCCSOebfXnpUj8RLSBmGke8d+unn61S8v0GJqaVY046599v4jSp+1fAsSjYVLwxgLknkCaDOIHWjMJwy85V0TsQdTpOkCAd9a41HZ1SegviWKQAZkNwHSFGaDEgxPd8a1X+m16zh8Fcv3WCZ3Zjm0bKgygRudQ9ZW9hLyahPSOX7pmrnDycNLK2cI5WP1SWbKDMxJZd/vCN628KV/ZOOWr0eqo4IB5EA+tIaGPSoMEOwgP3V+VSnXQ78q6DmY9Wp1QW9z5etTg0CO1wiu0qABbiGIrhtSBUrnWuWtqYxFI1FNCjyIiu4gwJpqbCkACmElHtuQVcNMKF94HMdNCZMzXjmM4Hdt3ryOBFvtToMwJkMO4rJr2l3599ZT/UPAZsP+ULIZVyPHNCTlnwJP8ZqJRtaGpHmtwKoUk5pHIkRB8eYqBmDNzidNfSiWwrOBAMnoJ5d1Sfma4B065oHzNZ6Q+SHg+IyYl4+6+8HUqOtanD3xlLbzH9Cn8ay+E4e35Q0xDKfWBVkMatpVVgxJVTpHMdSaHsOgi7ist5jG8cjyAruOxGa257PuNzI5HuquOPDNIQSdNWJ08BFS4kzbeY9xttORpUO1RnPaE64ds2X9HuDt2qhsohM/b6ncsTPxFW68MXEG0jEicPMiJ7NwRv41Fd9kgNrh81/A1ba+QSI8JhUGYh7cnqw1OYMOe4IrTrxbDAlSwBGh7JjyIEHyrLf/GH5XFPkR9aX5hxC7OD/ALj9RUOKb2y19GrHGcL/AN5B4yPmKFXidtsUgtXUIZCCQQ2gBbc6DUCs2eGYod/mp+dcOFxI3Qn/AGg/KhQS7FTPQwG5PPkK4mczy/27+hrzo/bLvZB8UNPTiDrvaQfxLScGPFnoN225UyRHh/eqHFYpFHbdV1IgkToSNtztWeHGTtkMbGLjgelMtcRtr7uHC+BBPrSwY6ZveFXLb2kgqdAe/XUSDqPOjbdtCdl59OleeW+NAcrifux9T40+5xsEyL19O7KpHxU08WTTN7+TJ91fSlWA/PZ//Kuf/rX/ANa7RiwNJw7gqJiY1ZIDKTDSeYaRsK1sAQAAACdAIHoKokuojqQ3vkgAzroTp5Cjjj0WMzAEn6U3GiFKye7hyxVRuzZB0ljl+tW1v2ZuZlW5dVrSNmChILag9s8/dHd6RVNfxyLBzAkMDpqeoPyr0NLwZRrBI51rCh5SjwdJHLlXCZ1rkA7j0NRZgOvnWhmOR+0R3TRAqvtNNzwUj+YEfWjkoAdThVXxfjdjDCbrgE7KNWPgo+dY7H/6gMTFhAq8i+rHyBgfGockuSoxb4PQ3pqCvL39qcW3/VgdFVR9Jod+NYhv+tc8mI+VR7Ymi8Mj1lxpQ9oEaEbEjy3BryC9jHYks5PfmMjzmh3xF5ZKsD3yVPwmj2/Q/S/k9gcakd4qv9qSThLirGYrIB6KwY/Bax/s17WuHSxfDNJgOdWGmknZh37j4VvWthpLgAERJPIjuED1rRNSRlKLi9nkKXHIHaPfB/DQUSuEGTMcwcECPHXYiduVEcTRrF11TK8NBjTSJUkctIojhxLqWYBDJWCe4QZPWawk9jitAr2UW6jAtLyTJECNIgCZqux+FLFGjTKo2O+umm/96MxIKvaYiATcA8v+KP4fimtuh1EQdO/l3aUWDWimFrLlCW1bwJM9edPxQmy5IytD9npodK0I4Yt4vBdIg2yp2OpILHQmNOXfWawuCxVzNYCFtWDMYCg7Fix1InpPnVd0Lok9nkBCMdxYAHm5n6VY37dF8K9mLtkDM6NCZOzJHvTO2lSXeG3RsoPgR9ammVZVKlJko5sO6jtIw8j86aFBpgmBBa7FG/Yil9hQMBYULiNjVjfw+nmJ/wAFSNwe02pzr+60fMGnETZ5/icLcJLLbcr94IxXv1AigX00Ijx0+deu8HwaW0yKCRmYy0FtTzIFFvaU7j4mllWjWM9Hi2auE161c4dYf3rSHxRT8xQz+zeFf/pIPAFf6SKeQ80eW0q9JPsbhvuH+N//AGpUZIMkUmHxSMdsuUwQdYJkaEf5tVzbtqROh218qx64C4oe4kG269kr1VwYjvynUTvQzY50d8pKwze6Y2OmmxpuNmKRuvyUE9nQsQInTU9OVepwNZ0A3NeIez/Hne/ZR8rBrltZ90jM4E9DvXtj3xEAaydfw76qCoUgpSIB5dOf9zUrgRqKCFzLGmvLu6mpPtdJNaUQTrZUHMF1IAnw2+ZqcVXnFg9KlF4TRQHhPGeKG9fuXC2rOxA/ZnsjwAgUHZxQ586rsPYd3yqpYkwANa3ns57CkkPf2+4Dp/uYb+A9axcbN1OjPpi+QNO/LWU78q9OxXs/YKBfsrRyiB2APiNaCHsvhwSfsVPiSR5AtU+ple5GIRnMFSmu8mInQnQGRXMVZdYDoyAn310Q/uuJRj61sMT7L2XHZU2mEwU+EqdCPCD30Dwy3fsXBYuIHsuCGiWQ/tQRodpUjX40YVyP2XwUVkPbKumS7kYEqR2h1zoZlY/WXrrl0r2LBPntK22YE+RJga8vpXnmJwli1eD20dGjVR7oEkEiZynTQDTTatFwz24s3rxsMj2nBIBaCrQcsZtCCSRGkSQJq46MpvLgz3tHhVTEtmUAuQeyJkBYn+XyqLh9sbAESYk/hRPtHcX8oZMsuCBmOkKUDEdeZ0jehMKhKvvAIJEiNDGsiRv8azl43lyTGVoumwlpyA6SBsB2Y9IIqHGcPtqA6qV7SAAtIgMD9OtCPiGAlWgd0Ce6SIA07qGLEshI1zTLPLQNdO1r4AU1HYZaLVIAgSBvAOnjFEDFNtI/hH0oS3rz1gn01qTD2w89qD03mu2oNWzFZdBaYg81B71JHw1p74yBoreZ0oZsKwgaGdRB/Gmo5GkmkvFGW0POS5O3Mdc5KgHdv61GcXPvpPkDU6uDuB/nhQ+KvQ0ARt47d9N+H6FkdC2m3TL6r/aocTZtgEozEjkdvXSoLrywk/5NQY5uw4nlUz8UVGxxnJsivv2TR2GaUBncUN7MYD7Znz5ioAA3gnn8I9a1LcHRVgQB3T9Sa44vs2ZTYMQsd5qYtVPc4p9m7oUnKzCZgxOhjwinpxu2d1ceh+tS3spFgFMDbbv+ldQnWf8ANBUeA4rh84kZydAsbHqQYBow8RwZzQCCAQASQXc6QJO4Ijpr3VSVoTZBNdoq3icHAjNc5FlMCRoREcopUYMMkYrg1tjglzAhlzaHfRpHwoTE8OR11AnX5nzFaKyBlIAABCmO4oPwqsw69jwLD0NXZJl8TwUr7hII2n4Qw2r1j2X419th0Lx9qkK46kbN4MNfUcqx7pO9D2Lz2XzoYPMciOh6iqUqB7PUnvazTDdJrGJ7X/etSe5/oVq5wXFzcQOqEAzpM7EjkO6tFJMmi7FwDnXRiwCNdR/k61WI9xiBooPTU7U65glOplj1JJNOhA/A/Zy1YJKgEy241idNf83q/wAkVDw60AogRO9FONaAGMuhqDNRTHQ0M60wGsdIrL8d4obJhT2390dOrVpb6nISsSNp2nlPdMVkeI8NuXXR3gEoA0ciPeA859aiV1oqKV7K7E4ztMSWMgHXw2Guo1oDitxVkOpBIJ31g8vCflV5xXhJhHUnKAFiYE7A+sVluKv+l/SSzqAqrMxzBgac/wAawa2bp2ix9pMWXxpIbTPb2O/YUH61eYUCW0HMHcfI1h7dwF1Yn9ZZPgRXo1qyuUtpJp9mJVXRIZWCgA6DcbHfr/eni12EP6PnBAM9NNNKV1wpJ3hgfgKjtjNbUHXUiP8APGqXIBiPlImPGDHlrUtu6FgyJOo1+MetQFSjqoIymYA7tNR5fKn3mBAMBZ6d3Saq3RNFlhr8676GPPeNKgytvyoOxOsk+PLu8/wolXGT3l6jUz02AMU4SpikrR1rgE61R8TweKckh0H7IlYHSddfxqxvOIiQx0GomZ05+POikKswheeseNXLzSZKikeeX+I4my5Vs6kfe1HkTII8DXX9qHylXyGR0IPw/CvRsVElTMDzHKKzN7BIrtC2zpJH2YMSJ1yoTHfWbnJ6ZVJF97D4wXcKjgRLPpzEOR9K0juYrL8ETJbQIEEkxkELJY8gAOfzq8OKXYyDSVIbMt7UuPtxprkB/mI3qpUg1e+0mFDur5svZA68yfrVP+RMCABOkhgdIBAJ1HUisZR2WpaA77spZlVTAAM98gCI/wAigrnEWBgJlIl+x2TAGaBG209au34bfudgMDMnUmNBJ1jpNVd3hLhiAdQSAN9JIEA6mpcZLaZcWnos8NwrFFQdU/ZN3UeOu9KtThcJnzH9oj4A/WlWm/kiymwLyqnqif8AkPpUFpNXH7ZPqoNLg7zbtnqnyP8A/VORv0rr1VGH8wPyFMRGyVU4zFrMKC3yq3xwORjEgbjqJ1+E1SF7J1BYDuGb5x86x83llGkkdHh8cZbZX3cQ/L4j4V6X7MWyMJancoWP+5i31rz/AOxRp7bARuV+mb616phEyW1UbKqr6CKr9M5SbbD9RGMUkibDW5IMaUabMjpUWB935VMrHqPSuw5B1hAoyjlTmPWmIdakYUANK71AzCptjVK/GbKZgzoMszLDQKYMjuoGWXI1WcRuqhE85+U1mOL/AOotlAVs22usD1yp45xM+A+FZDiPtxiMQ6LlVFzpmCyxYZxILHluNAKTYz0rH3rhQoiLyAZ4IgjeOfSsbxvhT2lRyoBbOCQZmII0gZQZP4CvSL9ttoHjt8qovbTCn8mBj3HU+oK/UVnKPZSlSpHnNsSR4j51v8M0if2R8qxFlNRWswc5feO3Ws72IbcbeeoI7xpNXl7BquEtvmUyZ2AmQdJ5ERr4Gs9bMscx8/l5Ue7L9miyNCTzj5a04/YEYQ55nXPp4FF+s09hATU89vGKizEnQn3vOIAqa4GGSdo3HLUn8KpPQEyW4Z+4gfy9OVcxKI4ELrlymRz6kn/Na62KUu7feYHr9NK7hnVCGZSVDLIP7wJ8dAatNWSwe9hnAHLUaTqP8ip/tcpGZQxyzqB0113o/iXEbTiEG7LlMREAk/OPM1W4h5yETqD4c/jSfA0cu4kzAVRqB5wTzHd16eFVmAtIbrs4zNEiQCu/NTvpRpMuBIPaHKIgbban1quwr/pG8DUXsKNLgbjRHZInTcDfvpj3SWJBUiR8h+M+dQ8OssWcqxGXtd3vD8PiadlImWk7zpyJ6eFUFDsbbJK6gdkmYBJII0HrQttAbi5mOWMrSQTlLAmOzqdBvT+JsQEI0MH5Co7joHGYEd4PfpuDSALuWVVwMwBXod+nLWocRalsxcnXXfc6/d/yK7eWyzA7nmRzMnfUf4KddsgBYYAZgY+Q5dT1ptAGICBED4fjSq4w11AoHd96lSoejy/gOLYZVZQEUMFaZJ1H6saDTxoq/igLoYajIVPLXNIpUqQFZxZQ63LpHaW1cy67dkj6/Gu4C2BYtCB7if0ilSofAIFw9sHFxG1uQJ03gmNp1r1bCvmtK3VVpUqqHP8AQS4LLACU8zUzrXKVaEiY7GpFalSpiOi2DXh3FFFu/wAQWVBa6wEzAU3WZvdBMmR6UqVRIpGbJJ226/hRXAsJ9pibCD9a7amegcE/AGu0qEDZ7+F+dZ3/AFAxP2eFMz7ySRy13+Q86VKnLgFyYLA4gNrow6xBq/w1/lSpVkMZfUie+isn6JD3k/56UqVCEyBbxBnfUD0E/WjcVjNFJHIx0iTy86VKn0MFsDtPzJM/Wjktg2zy7Q19f70qVNACsxXKp5nTXw/GiEvSUBnu6c9Y660qVSAyw0XMxggEjQRyO+gk9+tC4DDfpJPPSB399KlS7AusOuR2UHQ6H1UkU3TeI5fGlSq+gBeM3IyAf5tUGNOZ1nqB6GlSpdgGXsH9m6KABPa021zbdNqdd26df8nvpUqpiLbDk5RrSpUqQH//2Q==",
+      "titulo": "Acreditación de un laboratorio",
+      "contenido": "El CIIEMAD logró la acreditación de un laboratorio que le permite expedir la certificación en el cumplimiento de las normas de calidad exigidos por la Sría. de Economía, la SEMARNAP y otros organismos.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 63,
+      "fecha": 2012,
+      "num": 3,
+      "imagen": "https://pbs.twimg.com/media/A0TdCeUCAAAnhJi.png",
+      "titulo": "II Foro Ambiental",
+      "contenido": "Participación en el \"II Foro Ambiental: Sembrando ideas y cosechando oportunidades de vida\". Auditorio Rául E. Tálan Ramírez UPIBI-IPN.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 64,
+      "fecha": 2012,
+      "num": 4,
+      "imagen": "https://i.ytimg.com/vi/6szRFCC72Cc/maxresdefault.jpg",
+      "titulo": "Visita del Buque",
+      "contenido": "Participación del CIIEMAD en la \"Visita del Buque- Escuela Cuauhtémoc de la Marina Mexicana\" a Brest, Francia. Asi como también, en el \"International Network of Marine Science Territories\" en Best, Francia.",
+      "tipo": "Inter"
+    },
+    {
+      "id": 65,
+      "fecha": 2012,
+      "num": 5,
+      "imagen": "https://i0.wp.com/www.ucaldas.edu.co/portal/wp-content/uploads/2023/03/delfin-700x426.jpg",
+      "titulo": "Programa DELFÍN",
+      "contenido": "El CIIEMAD organizó y coordino el \"Programa Delfín\", perteneciente al Programa Interinstitucional para el Fortalecimiento de la Investigación y el Posgrado del Pacífico, participaron 300 estudiantes de toda la república en diferentes dependencias del IPN.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 66,
+      "fecha": 2012,
+      "num": 6,
+      "imagen": "https://upload.wikimedia.org/wikipedia/fr/c/c7/Logo_Tonnerres_de_Brest_2012.jpg",
+      "titulo": "International Maritime Festival",
+      "contenido": "El CIIEMAD participa en el International Maritime Festival \"Les tonnerres de Brest Fete Maritime Internationale 2012 - 20 ans\" participación de México y el IPN como Expositor y en la Coordinación General, México país invitado de honor en Brest, Francia.",
+      "tipo": "Inter"
+    },
+    {
+      "id": 67,
+      "fecha": 2012,
+      "num": 7,
+      "imagen": "https://pbs.twimg.com/media/DoNxFH_U0AAJ4Ee?format=jpg&name=medium",
+      "titulo": "Ley general de cambio climático",
+      "contenido": "La Ley General de Cambio Climático (LGCC), publicada en el Diario Oficial de la Federación el 6 de junio de 2012 y que entró en vigor en octubre de ese mismo año, crea el Instituto Nacional de Ecología y Cambio Climático (INECC) como un organismo público descentralizado de la Administración Pública Federal, con personalidad jurídica, patrimonio propio y autonomía de gestión, sectorizado en la Secretaría de Medio Ambiente y Recursos Naturales.",
+      "tipo": "Norma"
+    },
+    {
+      "id": 68,
+      "fecha": 2012,
+      "num": 8,
+      "imagen": "https://www.cicataqro.ipn.mx/cicataqro/qro/cicata/images/comites/cosecovi/Cosecovi.jpg",
+      "titulo": "Conformación COSECOVI",
+      "contenido": "Con el propósito de desarrollar la seguridad integral y un ambiente armónico para los miembros de la comunidad politécnica ,CIIEMAD conformó 1 Comité de Seguridad y Contra la Violencia (COSECOVI), de igual manera, para salvaguardar la integridad física, Integró 1 Unidad Interna de Proteccción Civil (UIPC), dentro de las acciones de prevención y auxilio.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 69,
+      "fecha": 2013,
+      "num": 1,
+      "imagen": "https://0901.static.prezi.com/preview/v2/qlgbzjnuu6syjfw7vaeuqlnnax6jc3sachvcdoaizecfr3dnitcq_3_0.png",
+      "titulo": "Ley Federal de Responsabilidad Ambiental",
+      "contenido": "Se crea la Ley Federal de Responsabilidad Ambiental (LFRA), regula la responsabilidad ambiental que nace de los daños ocasionados al ambiente, así como la reparación y compensación de dichos daños cuando sea exigible a través de los procesos judiciales federales.",
+      "tipo": "Norma"
+    },
+    {
+      "id": 70,
+      "fecha": 2013,
+      "num": 2,
+      "imagen": "https://eljuegodelacorte.nexos.com.mx/wp-content/uploads/2014/01/reforma-energetica.jpeg",
+      "titulo": "Reforma energética",
+      "contenido": "Uno de los principios de la Reforma Energética es: Sustituir las centrales eléctricas más contaminantes con tecnologías limpias y fomentar la utilización de gas natural en la generación eléctrica.",
+      "tipo": "Norma"
+    },
+    {
+      "id": 71,
+      "fecha": 2014,
+      "num": 1,
+      "imagen": "https://www.colimanoticias.com/wp-content/uploads/2014/08/Programa-DELF%C3%8DN.jpg",
+      "titulo": "Programa DELFÍN",
+      "contenido": "Se coordinó y organizó junto con la Secretaría de Investigación y Posgrado el \"XVIII Congreso Nacional del Programa DELFIN-IPN\".",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 72,
+      "fecha": 2014,
+      "num": 2,
+      "imagen": "https://www.ciiemad.ipn.mx/assets/files/ciiemad/uploads/FS_605397.jpg",
+      "titulo": "Certificado al CIIEMAD bajo norma ISO",
+      "contenido": "Como resultado de la auditoria del organismo certificador \"British Standars Institution\", dictaminó la emisión del certificado al SGC-CIIEMAD-IPN bajo la norma ISO 9001-2008, y entregado el documento que acredita la certificación.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 73,
+      "fecha": 2014,
+      "num": 3,
+      "imagen": "https://gaceta.uabc.mx/sites/default/files/styles/max_1300x1300/public/2019-07/Programa%20Delf%C3%ADn%20%282%29.jpg?itok=QHVHBVoy",
+      "titulo": "Segunda Asamblea del H. Consejo Técnico",
+      "contenido": "En el auditorio pincipal de la Unidad Politécnica para el Desarrollo y la Competitividad Empresarial (UPDCE), organizó y realizó la \"Segunda Asamblea del H. Consejo Técnico y XIX Reunión Nacional de Evaluación del Programa DELFIN-IPN\".",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 74,
+      "fecha": 2014,
+      "num": 4,
+      "imagen": "https://www.wku.edu/geology/images/slider_images/ees_1.jpg",
+      "titulo": "Environmental Earth Science",
+      "contenido": "Se participó por parte del CIIEMAD en la organización y exposición, conjuntamente con University of Madras, Chennal de la India, en el \"International Conference on Enviromental Earth Science\" sobre aspectos ambientales.",
+      "tipo": "Inter"
+    },
+    {
+      "id": 75,
+      "fecha": 2014,
+      "num": 5,
+      "imagen": "https://anchor-u.com/wp-content/uploads/atlas-ti-logo.png",
+      "titulo": "ATLAS.ti",
+      "contenido": "Se realizó el curso en el CIIEMAD, \"Investigación Científica apoyada en el uso del Software Atlas.ti\", y con el paso del tiempo, hubo más cursos de ello, hasta comenzar uno de \"Software Atlas.ti, Avanzado\". En diferentes horarios o hasta que se cambio a sabatino.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 76,
+      "fecha": 2015,
+      "num": 1,
+      "imagen": "https://www.gob.mx/cms/uploads/article/main_image/37828/NAICM.jpg",
+      "titulo": "Propuestas ambientales para NAICM",
+      "contenido": "El CIIEMAD elaboró a través de sus investigadores la elaboración del proyecto de vinculación del \"Programa y Propuesta de Acciones Ambientales para el Proyecto del Nuevo Aeropuerto Internacional de la Ciudad de México (NAICM)\", vinculado con el grupo Aeroportuario de la Ciudad de México.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 77,
+      "fecha": 2015,
+      "num": 2,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGbd2blAlhP6dy1x2wTOsROtzWRHa6ttI9nQ&usqp=CAU",
+      "titulo": "Programa DELFÍN",
+      "contenido": "Se organizó, coodinó y desarrollo el \"XX Congreso Nacional del Programa DELFIN-IPN\", realizado en Nayarit.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 78,
+      "fecha": 2015,
+      "num": 3,
+      "imagen": "https://coglobal.es/wp-content/uploads/2017/07/ods_CINU-1024x746.png",
+      "titulo": "Agenda para el desarrollo",
+      "contenido": "El 25 de septiembre más de 150 líderes asistieron a la Cumbre de las Naciones Unidas sobre el Desarrollo Sostenible en Nueva York con el fin de aprobar la Agenda para el Desarrollo Sostenible. El documento final, titulado “Transformar Nuestro Mundo: la Agenda 2030 para el Desarrollo Sostenible”, fue adoptado por los 193 Estados Miembros de las Organización de las Naciones Unidas (ONU). ",
+      "tipo": "Inter"
+    },
+    {
+      "id": 79,
+      "fecha": 2015,
+      "num": 4,
+      "imagen": "https://www.unicepes.edu.mx/wp-content/uploads/2019/09/middleambientales.jpg",
+      "titulo": "Nueva Maestría y Doctorado",
+      "contenido": "Se desarrollan: \"Maestría en Géstion y Auditorías Ambientales\". Posterior a ello, un programa educativo: \"Doctorado en Ciencias en Conservación del Patrimonio Paisajístico\".",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 80,
+      "fecha": 2016,
+      "num": 1,
+      "imagen": "https://alef.mx/wp-content/uploads/2016/08/Verano-cientifico-delfin-XXI.jpg",
+      "titulo": "XXI Verano de la Investigación Científica",
+      "contenido": "El CIIEMAD llevo a cambo la coordinación del Programa DELFIN, donde estudiantes del nivel medio superior y superior participaron para integrar proyectos, los cuales se expusieron en el Congreso Nacional \"XXI Verano de la Investigación Científica y Tecnológica del Pacífico 2016\".",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 81,
+      "fecha": 2016,
+      "num": 2,
+      "imagen": "https://docplayer.es/docs-images/77/75689203/images/34-5.jpg",
+      "titulo": "Nombramiento del Director del CIIEMAD",
+      "contenido": "Nombramiento del Director Titular del CIIEMAD, al Dr. Víctor Florencio Santes Hernández.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 82,
+      "fecha": 2016,
+      "num": 3,
+      "imagen": "https://home-statics.boletia.com/uploads/sponsor/logo/16208/Logo_updce.png",
+      "titulo": "Cátedra patrimonial en medio ambiente",
+      "contenido": "En la Unidad Politécnica para el Desarrollo y Competitividad Empresarial (UPDCE) del IPN, con la asistencia de 230 personas de la comunidad politécnica y del público general relacionada con el medio ambiente, se llevo la \"Cátedra Patrimonial en Medio Ambiente\".",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 83,
+      "fecha": 2017,
+      "num": 1,
+      "imagen": "data:image/jpeg;base64,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",
+      "titulo": "Conferencia por el Dr. Rajandra Kumar",
+      "contenido": "Se realizó la conferencia \"Climate change, the imperative of youth leadership and university iniciatives\" Dr. Rajendra Kumar Pachauri Premio Nobel de la Paz 2007. A nombre del Grupo Intergubernamental de Expertos sobre Cambio Climático (IPCC) llevada a cabo en el Centro Cultural \"Jaime Torres Bodet\".",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 84,
+      "fecha": 2018,
+      "num": 1,
+      "imagen": "data:image/jpeg;base64,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",
+      "titulo": "Cátedra patrimonial en medio ambiente",
+      "contenido": "Se realizó la \"Cátedra Patrimonial en Medio Ambiente\" por el Dr. Héctor Mayagoitia.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 85,
+      "fecha": 2019,
+      "num": 1,
+      "imagen": "https://i.ytimg.com/vi/1zU8osrc1Bo/maxresdefault.jpg",
+      "titulo": "Nuevo Doctorado en Ciencias",
+      "contenido": "El miércoles 31 de julio de 2019 se aprobó en el Consejo general Consultivo el Programa de Doctorado en continuidad con la maestría “DOCTORADO EN CIENCIAS EN ESTUDIOS AMBIENTALES Y DE LA SUSTENTABILIDAD.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 86,
+      "fecha": 2021,
+      "num": 1,
+      "imagen": "https://scontent.fmex26-1.fna.fbcdn.net/v/t39.30808-6/239869203_4228218227263418_3257503526873504645_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=xfoqL5UktYsAX_IhRhs&_nc_oc=AQkkR_P1CaWJP4eoVOeccujiiPPi981Hm6frcK-Q7HJxXHRpR35BJkYbVDiSvlHP92M&_nc_ht=scontent.fmex26-1.fna&oh=00_AfCn-uSEqaL8riw3UDL4qbkybCWi4mb2Xjuny4X61jUWOQ&oe=6594090D",
+      "titulo": "Cátedra por el Dr. Héctor Mayagoitia",
+      "contenido": "Se realizó la \"Cátedra Patrimonial en Medio Ambiente\" por el Dr. Héctor Mayagoitia.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 87,
+      "fecha": 2021,
+      "num": 2,
+      "imagen": "https://pbs.twimg.com/media/E1J23PQXMAcTBBE?format=jpg&name=large",
+      "titulo": "Homenaje a Dr. Rubén Cantú",
+      "contenido": "Homenaje de sus 50 años de servicio en el IPN al Dr. Rubén Cantú Chapa, se llevo a cabo en este Centro a través de su canal de Youtube.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 88,
+      "fecha": 2021,
+      "num": 3,
+      "imagen": "https://i.ytimg.com/vi/TdZm6WXN6EA/maxresdefault.jpg",
+      "titulo": "Homenaje a Dr. Héctor Mayagoitia",
+      "contenido": "Homenaje en el Día Mundial del Medio Ambiente al Dr. Héctor Mayagoitia Domínguez, se llevo a cabo en este Centro a través de su canal de Youtube.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 89,
+      "fecha": 2021,
+      "num": 4,
+      "imagen": "https://i.ytimg.com/vi/qwkWZooYQUg/maxresdefault.jpg",
+      "titulo": "Así vivimos el 85 Aniversario del IPN",
+      "contenido": "Se llevo a cabo un convervatorio 2 \"Así vivimos el 85 Aniversario del IPN\" con la participación de la Mtra. María de la Luz Valderrábano Almegua, se llevo a cabo en este Centro a través de su canal de Youtube a las 10:00, el 28 de abril.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 90,
+      "fecha": 2022,
+      "num": 1,
+      "imagen": "https://www.ciiemad.ipn.mx/assets/files/ciiemad/uploads/Banner_CPMA_HMD2022.jpg",
+      "titulo": "Cátedra por el Dr. Héctor Mayagoitia",
+      "contenido": "Se realizó la \"Cátedra Patrimonial en Medio Ambiente\" por el Dr. Héctor Mayagoitia (Séptima edición).",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 91,
+      "fecha": 2022,
+      "num": 2,
+      "imagen": "https://www.ciiemad.ipn.mx/assets/files/ciiemad/uploads/Banner_11_Coloquio_de_Estudiantes_Web_1.jpg",
+      "titulo": "11vo Coloquio de Estudiantes del CIIEMAD",
+      "contenido": "11vo Coloquio de Estudiantes del CIIEMAD 9, 10, y 11 de noviembre de 2022",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 92,
+      "fecha": 2022,
+      "num": 3,
+      "imagen": "http://www.lead.colmex.mx/imagenes/cintillo-foro-agenda-ambiental-2020.png",
+      "titulo": "Evento LEAD",
+      "contenido": "Evento \"LEAD: Temas transversales para la sustentabilidad\", con sede en el CIIEMAD. COLMEX-IPN",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 93,
+      "fecha": 2022,
+      "num": 4,
+      "imagen": "https://www.lachicuela.com/wp-content/uploads/2018/06/7858-696x425.jpg",
+      "titulo": "Día mundial del medio ambiente",
+      "contenido": "5 de junio de 2022 , Celebración del día mundial del medio ambiente.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 94,
+      "fecha": 2022,
+      "num": 5,
+      "imagen": "https://i.ytimg.com/vi/_o95TyTlYQg/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDzX5jVwm393Egf51-mrz56XJevKw",
+      "titulo": "Foro de consulta pública",
+      "contenido": "Foros de consulta pública sobre el Plan General de Desarrollo y el Programa Generl de Ordenamiento Territorial del la Ciudad de México.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 95,
+      "fecha": 2022,
+      "num": 6,
+      "imagen": "https://www.unionguanajuato.mx/wp-content/uploads/2020/12/calaveritas-literarias-caracteristicas-1200-1024x576.jpg",
+      "titulo": "Calaveritas literarias en el CIIEMAD",
+      "contenido": "26 de octubre de 2022, Convocatoria de calaveritas literarias en el CIIEMAD 2022.",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 96,
+      "fecha": 2022,
+      "num": 7,
+      "imagen": "https://www.esap.edu.co/inicio/wp-content/uploads/2022/05/invescongresoo.jpg",
+      "titulo": "XV Congresa Internacional",
+      "contenido": "26 al 29 de septiembre del 2022 , XV Congresa Internacional: Estudios Ambientales y del Territorio. Cordinadores: Dr. Roque Juan Carrasco Aquino (CIIEMAD-IPN) y el Dr. Ronald Alejandro Macuacé Otero (ESAP-Popayán, Colombia).",
+      "tipo": "PIMADI"
+    },
+    {
+      "id": 97,
+      "fecha": 2022,
+      "num": 8,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqBQkQBf5n7whgTLVB4N2wC54b1bOuN1DjtBrnt3gqQ6hBOtacD_6-7Bi-LvdsTpG8oxg&usqp=CAU",
+      "titulo": "Eliminación de la violencia contra la mujer",
+      "contenido": "La Red de Género del CIIEMAD, en el marco de los 16 días de activismo en el IPN para conmemorar el 25 de noviembre, Día Internacional de la Eliminación de la Violencia contra la Mujer, hace una cordial invitación a la conferencia \"Violencia de Género\" por la Dra, Edith Esmeralda Monroy Miranda.",
+      "tipo": "PIMADI"
     }
   ]
 }

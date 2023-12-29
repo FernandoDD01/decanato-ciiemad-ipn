@@ -51,14 +51,22 @@
 }
 
 .cont-pop-galeria {
+  width: 1000px;
   margin: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .arrow-galery {
+  margin: 10px;
+  text-align: center;
+  flex-basis: 100px;
   transition: all 0.3s;
   font-size: 70px;
+}
+.arrow-galery i {
+  border-radius: 70px;
+  background-color: gainsboro;
 }
 
 .arrow-galery:hover {
@@ -67,7 +75,7 @@
 }
 
 .content-popup {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,10 +83,10 @@
 
 .content-popup img {
   width: 800px;
-  height: 600px;
+  height: 400px;
   object-fit: contain;
 }
 
 .popup {
-  width: 950px;
+  width: auto;
 }

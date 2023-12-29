@@ -1,7 +1,12 @@
 :root {
+  --color--all: #f7361cff;
   --color--internalizacion: #409234;
   --color--normatividad: #6e9ffa;
   --color--pimadi: #b35782;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .main-historia-ciiemad {
@@ -11,12 +16,39 @@
   flex-direction: column;
 }
 
+/*Controles de la linea del tiempo */
+.contenedor-controls {
+  height: 0;
+  width: 300px;
+  position: relative;
+  bottom: -300px;
+  left: 100px;
+  z-index: 990;
+}
+
+.control {
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.control p {
+  margin: 0 !important;
+  font-weight: bold;
+}
+.control i {
+  cursor: pointer;
+}
+
+/*           */
+
 .contenedor-linea-tiempo {
   background-color: #f5f5f5;
 
   margin: 30px 30px 50px 30px;
 
-  height: 700px;
+  height: 1100px;
 
   border: solid black;
   overflow: auto;
@@ -50,16 +82,32 @@
   flex-basis: 50%;
 }
 
+.all-color {
+  color: var(--color--all);
+}
+
 .inter {
   border: solid var(--color--internalizacion);
+}
+
+.inter-color {
+  color: var(--color--internalizacion);
 }
 
 .norma {
   border: solid var(--color--normatividad);
 }
 
+.norma-color {
+  color: var(--color--normatividad);
+}
+
 .pimadi {
   border: solid var(--color--pimadi);
+}
+
+.pimadi-color {
+  color: var(--color--pimadi);
 }
 
 .fecha {
@@ -76,8 +124,8 @@
   cursor: pointer;
   order: 100;
   border-radius: 8px;
-  width: 170px;
-  height: 60px;
+  width: 220px;
+  height: 100px;
   display: flex;
   flex-flow: row;
 }
@@ -85,7 +133,7 @@
 .content-img img {
   object-fit: cover;
   width: 59px;
-  height: 54px;
+  height: 94px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -106,7 +154,7 @@
 .content-fecha p {
   margin: 10px;
   word-wrap: break-word;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -149,14 +197,14 @@
 
 .fecha-indice {
   text-align: center;
-  width: 170px;
+  width: 220px;
   order: 1;
 }
 
 .dibujo-barra {
   border-radius: 10px;
   margin: 0px 100px 0px 100px;
-  width: 1300px;
+
   height: 20px;
   background-color: black;
 }
