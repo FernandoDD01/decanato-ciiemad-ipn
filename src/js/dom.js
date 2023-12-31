@@ -118,7 +118,16 @@ if (document.querySelector("body").classList.contains("root")) {
   $header.innerHTML += `<div class="contenedorEscuela">Decanato CIIEMAD IPN</div>`;
 }
 
-$footer.innerHTML = ` <div class="footer-guinda"></div>
+$footer.innerHTML = ` <div class="footer-guinda">
+<div class="titulo-redes">Redes sociales del CIIEMAD</div>
+<div class="redes-icons">
+<a href="https://www.facebook.com/ciiemad/" target="_blank" rel="noreferrer"><i class='bx bxl-facebook-square bx-md'></i></a>
+<a href="https://www.youtube.com/@CIIEMADIPNoficial" target="_blank" rel="noreferrer"><i class='bx bxl-youtube bx-md'></i></a>
+
+
+</div>
+</div>
+
 <div class="footer-gray">
   <div class="footer-escudo-ipn">
     <a href="https://www.ipn.mx/" target="_blank" rel="noreferrer">

@@ -31,56 +31,175 @@ let boton = document.getElementById("boton");
 let input = document.getElementById("serch");
 
 var indice = 1;
+
 paginacion(indice);
-pagina1.addEventListener("click", () => {
+pagina1.classList.add("active");
+pagina1.addEventListener("click", (e) => {
   indice = 1;
+
   paginacion(indice);
-  console.log(indice);
+
+  e.target.classList.add("active");
+
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina2.addEventListener("click", () => {
+pagina2.addEventListener("click", (e) => {
   indice = 41;
+
   paginacion(indice);
   console.log(indice);
+
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina3.addEventListener("click", () => {
+pagina3.addEventListener("click", (e) => {
   indice = 81;
+
   paginacion(indice);
   console.log(indice);
+
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina4.addEventListener("click", () => {
+pagina4.addEventListener("click", (e) => {
   indice = 121;
+
   paginacion(indice);
-  console.log(indice);
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina5.addEventListener("click", () => {
+pagina5.addEventListener("click", (e) => {
   indice = 161;
+  verifyPag(indice);
+
   paginacion(indice);
-  console.log(indice);
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina6.addEventListener("click", () => {
+pagina6.addEventListener("click", (e) => {
   indice = 201;
+
   paginacion(indice);
-  console.log(indice);
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina7.addEventListener("click", () => {
+pagina7.addEventListener("click", (e) => {
   indice = 241;
+
   paginacion(indice);
-  console.log(indice);
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina8.addEventListener("click", () => {
+pagina8.addEventListener("click", (e) => {
   indice = 281;
+
   paginacion(indice);
-  console.log(indice);
+
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina9.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina9.addEventListener("click", () => {
+pagina9.addEventListener("click", (e) => {
   indice = 321;
+
   paginacion(indice);
-  console.log(indice);
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina10.classList.remove("active");
 });
-pagina10.addEventListener("click", () => {
+pagina10.addEventListener("click", (e) => {
   indice = 361;
+
   paginacion(indice);
-  console.log(indice);
+  e.target.classList.add("active");
+
+  pagina1.classList.remove("active");
+  pagina2.classList.remove("active");
+  pagina3.classList.remove("active");
+  pagina4.classList.remove("active");
+  pagina5.classList.remove("active");
+  pagina6.classList.remove("active");
+  pagina7.classList.remove("active");
+  pagina8.classList.remove("active");
+  pagina9.classList.remove("active");
 });
 
 let enlace_gacetas = [

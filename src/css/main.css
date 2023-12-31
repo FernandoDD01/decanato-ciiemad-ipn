@@ -84,6 +84,37 @@ footer {
   flex-direction: column;
 }
 
+.footer-guinda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-redes {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.redes-icons {
+  display: flex;
+}
+
+.redes-icons a {
+  margin: 10px;
+}
+
+/*Colores de lo iconos de redes sociales*/
+.bxl-facebook-square {
+  color: #1e559f;
+}
+
+.bxl-youtube {
+  color: #d61f30;
+}
+
 .contenedorNavegador {
   transition: opacity 0.3s;
   margin: 10px 30px 10px 30px;
