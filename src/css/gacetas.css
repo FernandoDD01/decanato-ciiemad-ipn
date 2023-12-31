@@ -1,0 +1,18 @@
+:root {
+  --color--IPN--guinda: rgba(104, 36, 68);
+  --color-oxford: #202224;
+  --color-mexico: #13322b;
+}
+
+.card-title {
+  color: var(--color--IPN--guinda);
+  font-weight: bolder !important;
+}
+
+.card {
+  margin: 0px 70px 0px 70px;
+}
+
+small {
+  color: gray;
+}

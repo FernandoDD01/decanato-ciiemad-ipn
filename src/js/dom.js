@@ -8,163 +8,106 @@ $header.innerHTML = ``;
 $header.innerHTML += `
 <!--navegador-->
 
-      <nav class="navbar navbar-expand-lg navbar-dark contenedorNavegador">
-        <div class="container-fluid justify-content-center">
-         
-        <div class="banderin">
-        <img
-          class="banderin-vacio"
-          src="assets/imagenes/banderin.png"
-          width="100"
-          height="100"
-          alt="banderin-vacio"
-          class="banderin-img justify-content-left"
-        />
-        <img
-          class="escudo-ciiemad"
-          src="assets/imagenes/banderin-ciiemad.png"
-          width="75"
-          height="75"
-          alt="escudo-ciiemad"
-          class="banderin-img justify-content-left"
-        />
-      </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="true"
-            aria-label="Toggle navigation"
-          >
-            <a class="navbar-brand" href="#">Menú Principal</a>
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<nav class="navbar navbar-expand-lg navbar-dark contenedorNavegador" >
+<div class="container-fluid justify-content-center">
+  <div class="banderin">
+    <img
+      class="banderin-vacio"
+      src="assets/imagenes/banderin.png"
+      width="100"
+      height="100"
+      alt="banderin-vacio"
+      class="banderin-img justify-content-left"
+    />
+    <img
+      class="escudo-ciiemad"
+      src="assets/imagenes/banderin-ciiemad.png"
+      width="75"
+      height="75"
+      alt="escudo-ciiemad"
+      class="banderin-img justify-content-left"
+    />
+  </div>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="true"
+    aria-label="Toggle navigation"
+  >
+    <a class="navbar-brand" href="#">Menú Principal</a>
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarNavDropdown"
-            style="margin-top: 0px"
-          >
+  <div
+    class="collapse navbar-collapse justify-content-center"
+    id="navbarNavDropdown"
+    style="margin-top: 0px"
+  >
+    <ul class="navbar-nav">
+      <li class="nav-item enlace-nav-inicio">
+        <a
+          href="/"
+          class="nav-link"
+          aria-current="page"
+          title="Inicio"
+          >Inicio</a
+        >
+        
+        
+      </li>
+      <li class="nav-item enlace-nav-decana">
+        <a href="/CV_decana.html" class="nav-link" title="Decana"
+          >Decana</a
+        >
+      </li>
+      <li class="nav-item enlace-nav-gacetas">
+        <a href="/Gacetas.html" class="nav-link" title="Gacetas"
+          >Gacetas</a
+        >
+      </li>
+      <li class="nav-item enlace-nav-historia">
+        <a
+          href="Historial_del_CIIEMAD.html"
+          class="nav-link"
+          title="Historia del CIIEMAD"
+          >Historia del CIIEMAD</a
+        >
+      </li>
 
-         
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  href="index.html"
-                  class="nav-link active"
-                  aria-current="page"
-                  title="Inicio"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="CV_decana.html" class="nav-link" title="Decana"
-                  >Decana</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  title="Archivo Histórico"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Archivo Histórico</a
-                >
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Hechos_historicos.html"
-                      title="Hechos históricos"
-                      ><div class="selected" style="display: none"></div>
-                      <p>Hechos Históricos</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Gacetas.html"
-                      title="Gacetas"
-                    >
-                      Gacetas</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="Historial_del_CIIEMAD.html"
-                  class="nav-link"
-                  title="Historia del CIIEMAD"
-                  >Historia del CIIEMAD</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  title="Personas destacadas"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Personas destacadas</a
-                >
-                <ul class="dropdown-menu color-black">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Profesores.html"
-                      title="Profesores"
-                    >
-                      Profesores</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="Alumnos.html"
-                      title="Alumnos"
-                    >
-                      Alumnos</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  title="Galería"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Galería</a
-                >
-                <ul class="dropdown-menu color-black">
-                  <li>
-                    <a class="dropdown-item" href="Fotos.html" title="Fotos">
-                      Fotos</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Videos.html" title="Videos">
-                      Videos</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div
-          id="contenedorAccesibilidad-scroll"
-          class="contenedorAccesibilidad u-oculto"
-        ></div>
-      </nav>
+      <li class="nav-item  dropdown enlace-nav-galeria">
+        <a
+          class="nav-link dropdown-toggle "
+          title="Galería"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          >Galería</a
+        >
+        <ul class="dropdown-menu color-black">
+          <li>
+            <a class="dropdown-item" href="Fotos.html" title="Fotos">
+              Fotos</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="Videos.html" title="Videos">
+              Videos</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div
+  id="contenedorAccesibilidad-scroll"
+  class="contenedorAccesibilidad u-oculto"
+></div>
+</nav>
 
       <!--Contenedor Nombre Instituto-->
       
@@ -190,7 +133,7 @@ $footer.innerHTML = ` <div class="footer-guinda"></div>
 
   <div class="footer-autor">
     <p>© Todos los derechos reservados</p>
-    <p>- Fernando Enrique Alvarado Bolaños -</p>
+    <p><i>- por Fernando Enrique Alvarado Bolaños -</i></p>
     
 
     <p>Enero 2024</p>

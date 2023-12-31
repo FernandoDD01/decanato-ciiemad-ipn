@@ -83,6 +83,78 @@ pagina10.addEventListener("click", () => {
   console.log(indice);
 });
 
+let enlace_gacetas = [
+  "https://www.ipn.mx/assets/files/ccs/docs/gaceta-mensual/2004/03/594g-febrero04.pdf",
+  "https://www.ipn.mx/assets/files/ccs/docs/gaceta-mensual/2004/04/595-gaceta595-webok.pdf",
+  "https://www.ipn.mx/assets/files/ccs/docs/gaceta-mensual/2004/05/597-31-mayo-gmayo04.pdf",
+  "https://www.ipn.mx/assets/files/ccs/docs/gaceta-mensual/2004/06/g-598-m.pdf",
+  "https://www.ipn.mx/assets/files/ccs/docs/gaceta-mensual/2004/07/599-31-julio-gaceweb.pdf",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+  "https://www.ipn.mx/imageninstitucional/gacetas/politecnica.html",
+];
+
 //acceder a la tabla de gacetas y formar los renglones de la tabla
 function paginacion(I) {
   let contenedor = document.querySelector(".seccion_gacetas");
@@ -92,11 +164,36 @@ function paginacion(I) {
     .get()
     .then((querySnapshot) => {
       let contador = 0;
+
       console.log(querySnapshot);
       querySnapshot.forEach((gacetas) => {
         contador++;
         if (contador >= I && contador < I + 40) {
-          resultados += `<div class="card  w-75 mt-3 mx-auto" style="height: 16rem;">
+          resultados += `<div class="card mb-3" style="max-width: 700px";>
+        <div class="row g-0">
+          <div class="col-md-4">
+          <a href="${enlace_gacetas[contador - 1]}" target="_blank">
+            <img src="assets/port_gacetas/${
+              gacetas.data().numero
+            }.jpg" class="img-fluid rounded-start" alt="${
+            gacetas.data().numero
+          }" ></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">${
+                gacetas.data().documento_historico
+              } - No.${gacetas.data().id}</h5>
+              <p class="card-text ">${gacetas.data().descripcion}</p>
+              <p class="card-text "><small class="text-body-secundary">${
+                gacetas.data().clasificacion
+              }</small></p>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
+          /*`<div class="card  w-75 mt-3 mx-auto" style="height: 16rem";>
         <div class="row g-0">
           <div class="col-md-4 p-3 justify-content-center">
           <a href="assets/pdf_gacetas/${
@@ -120,7 +217,7 @@ function paginacion(I) {
             </div>
           </div>
         </div>
-      </div>`;
+      </div>`;*/
         } else {
           return;
         }

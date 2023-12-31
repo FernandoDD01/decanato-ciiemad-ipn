@@ -1,10 +1,11 @@
 window.addEventListener("scroll", function () {
-  var menu = document.querySelector(".contenedorNavegador");
-  var scrollPosition = window.scrollY;
+  let menu = document.querySelector(".contenedorNavegador");
+
+  let scrollPosition = window.scrollY;
 
   if (scrollPosition > 60) {
     menu.classList.add("sticky");
-    menu.style.opacity = 0.75;
+    menu.style.opacity = 0.8;
   } else {
     menu.classList.remove("sticky");
     menu.style.opacity = 1;
