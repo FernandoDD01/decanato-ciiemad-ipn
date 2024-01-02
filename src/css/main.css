@@ -364,7 +364,7 @@ footer {
   color: #fff;
   display: flex;
   justify-content: center;
-  transition: transform 0.5s;
+  transition: transform 0.3s;
 }
 
 .contact-icons a:hover {
@@ -392,6 +392,8 @@ footer {
 }
 
 .cv-text {
+  color: #666;
+  font-family: Roboto;
   text-align: justify;
   margin: 20px;
   padding: 20px;

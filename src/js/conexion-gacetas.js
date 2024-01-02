@@ -50,6 +50,8 @@ pagina1.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+
+  window.scrollY(0);
 });
 pagina2.addEventListener("click", (e) => {
   indice = 41;
@@ -68,6 +70,7 @@ pagina2.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina3.addEventListener("click", (e) => {
   indice = 81;
@@ -86,6 +89,7 @@ pagina3.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina4.addEventListener("click", (e) => {
   indice = 121;
@@ -102,6 +106,7 @@ pagina4.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina5.addEventListener("click", (e) => {
   indice = 161;
@@ -119,6 +124,7 @@ pagina5.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina6.addEventListener("click", (e) => {
   indice = 201;
@@ -135,6 +141,7 @@ pagina6.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina7.addEventListener("click", (e) => {
   indice = 241;
@@ -151,6 +158,7 @@ pagina7.addEventListener("click", (e) => {
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina8.addEventListener("click", (e) => {
   indice = 281;
@@ -168,6 +176,7 @@ pagina8.addEventListener("click", (e) => {
   pagina7.classList.remove("active");
   pagina9.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina9.addEventListener("click", (e) => {
   indice = 321;
@@ -184,6 +193,7 @@ pagina9.addEventListener("click", (e) => {
   pagina7.classList.remove("active");
   pagina8.classList.remove("active");
   pagina10.classList.remove("active");
+  window.scrollY(0);
 });
 pagina10.addEventListener("click", (e) => {
   indice = 361;
@@ -200,6 +210,7 @@ pagina10.addEventListener("click", (e) => {
   pagina7.classList.remove("active");
   pagina8.classList.remove("active");
   pagina9.classList.remove("active");
+  window.scrollY(0);
 });
 
 let enlace_gacetas = [

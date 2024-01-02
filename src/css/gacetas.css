@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color--IPN--guinda: rgba(104, 36, 68);
   --color-oxford: #202224;

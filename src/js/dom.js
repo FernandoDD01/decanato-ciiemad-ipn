@@ -121,8 +121,8 @@ if (document.querySelector("body").classList.contains("root")) {
 $footer.innerHTML = ` <div class="footer-guinda">
 <div class="titulo-redes">Redes sociales del CIIEMAD</div>
 <div class="redes-icons">
-<a href="https://www.facebook.com/ciiemad/" target="_blank" rel="noreferrer"><i class='bx bxl-facebook-square bx-md'></i></a>
-<a href="https://www.youtube.com/@CIIEMADIPNoficial" target="_blank" rel="noreferrer"><i class='bx bxl-youtube bx-md'></i></a>
+<a href="https://www.facebook.com/ciiemad/" target="_blank" rel="noreferrer" title="Facebook oficial del CIIEMAD"><i class='bx bxl-facebook-square bx-md'></i></a>
+<a href="https://www.youtube.com/@CIIEMADIPNoficial" target="_blank" rel="noreferrer" title="Youtube oficial del CIIEMAD"><i class='bx bxl-youtube bx-md'></i></a>
 
 
 </div>
@@ -130,7 +130,7 @@ $footer.innerHTML = ` <div class="footer-guinda">
 
 <div class="footer-gray">
   <div class="footer-escudo-ipn">
-    <a href="https://www.ipn.mx/" target="_blank" rel="noreferrer">
+    <a href="https://www.ipn.mx/" target="_blank" rel="noreferrer" title="Página oficial del IPN">
       <img
         src="/assets/imagenes/Logo_IPN.png"
         alt="escudo-IPN"
@@ -159,7 +159,7 @@ $footer.innerHTML = ` <div class="footer-guinda">
   </div>
 
   <div class="footer-escudo-ciiemad">
-    <a href="https://www.ciiemad.ipn.mx/" target="_blank" rel="noreferrer"
+    <a href="https://www.ciiemad.ipn.mx/" target="_blank" rel="noreferrer" title="Página oficial del CIIEMAD"
       ><img
         src="/assets/imagenes/banderin-ciiemad.png"
         alt="escudo-ciiemad"
